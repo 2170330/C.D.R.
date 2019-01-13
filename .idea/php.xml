@@ -73,6 +73,12 @@
       <path value="$PROJECT_DIR$/advanced/vendor/symfony/contracts" />
       <path value="$PROJECT_DIR$/advanced/vendor/symfony/browser-kit" />
       <path value="$PROJECT_DIR$/advanced/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/advanced/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/advanced/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/advanced/vendor/facebook/webdriver" />
+      <path value="$PROJECT_DIR$/advanced/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/advanced/vendor/codeception/codeception" />
+      <path value="$PROJECT_DIR$/advanced/vendor/yii2mod/yii2-cart" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="5.4.0" />

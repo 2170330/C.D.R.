@@ -13,6 +13,7 @@
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/bower-asset/yii2-pjax" />
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/cebe/markdown" />
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/codeception/base" />
+      <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/codeception/codeception" />
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/codeception/phpunit-wrapper" />
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/codeception/stub" />
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/codeception/verify" />
@@ -21,7 +22,10 @@
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/doctrine/lexer" />
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/egulias/email-validator" />
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/ezyang/htmlpurifier" />
+      <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/facebook/webdriver" />
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/fzaninotto/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/guzzlehttp/promises" />
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/guzzlehttp/psr7" />
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/kartik-v/yii2-krajee-base" />
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/kartik-v/yii2-widget-datetimepicker" />
@@ -63,9 +67,11 @@
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/symfony/finder" />
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/symfony/polyfill-ctype" />
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/symfony/process" />
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/symfony/yaml" />
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/theseer/tokenizer" />
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/yii2mod/yii2-cart" />
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/yiisoft/yii2" />
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/yiisoft/yii2-bootstrap" />
       <excludeFolder url="file://$MODULE_DIR$/advanced/vendor/yiisoft/yii2-composer" />

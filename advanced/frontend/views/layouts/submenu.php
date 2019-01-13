@@ -13,7 +13,7 @@ $pratos = Prato::find()->all();
 <div id="sidebar">
     <h1 class="sidebar-titulo"> <?= Html::a(' C.D.R.', ['/site/index'], ['class'=>'']) ?></h1>
     <ul class="nav-fall">
-        <li class="sidebar-menu"> <a href="#menu"><i class="fas fa-users"></i> Menu</a> </li>
+        <li class="sidebar-menu"> <a href="#menu"><i class="far fa-calendar-minus"></i> Menu</a> </li>
         <li class="sidebar-menu"><i class="fas fa-utensils"></i> Pratos
             <ul class="sidebar-submenu">
                 <li><i class="fas fa-drumstick-bite"><a href="#carne"></i> Carne</a></li>
@@ -24,9 +24,9 @@ $pratos = Prato::find()->all();
         </li>
         <li class="sidebar-menu"><i class="fas fa-wine-glass-alt"></i> Bebidas
             <ul class="sidebar-submenu">
-                <li><a href=""><i class="fas fa-glass-martini"><a href="#sumos"></i> Sumos</a></li>
-                <li><a href=""><i class="fas fa-wine-bottle"><a href="#vinhos"></i> Vinhos</a></li>
-                <li><a href=""><i class="fas fa-beer"><a href="#outros"></i> Outras Bebidas</a></li>
+                <li><i class="fas fa-glass-martini"><a href="#sumos"></i> Sumos</a></li>
+                <li><i class="fas fa-wine-bottle"><a href="#vinhos"></i> Vinhos</a></li>
+                <li><i class="fas fa-beer"><a href="#outros"></i> Outras Bebidas</a></li>
             </ul>
         </li>
         <li class="sidebar-menu"> <i class="fas fa-cookie"><a href="#sobremesas"></i> Sobremesas</a></li>

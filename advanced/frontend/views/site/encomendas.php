@@ -43,11 +43,13 @@ $sobremesas = Sobremesa::find()->all();
     });
 </script>
 
+<?php $cart = Yii::$app->cart; ?>
+
 <div class="site-menu row menu-image">
     <?= $this->render('@frontend/views/layouts/submenu.php'); ?>
 
     <div class="site-menu-2 clearfix col-lg-9">
-        <p id="sobremesas" class="titulo-menu"> Sobremesas </p>
+        <p id="menu" class="titulo-menu"> Menus </p>
         <p class="line"> _____</p>
         <?php
         $count = 1;
@@ -55,7 +57,7 @@ $sobremesas = Sobremesa::find()->all();
             <?= ($count % 3 == 0) ? '<div class="row">' : ''; ?>
             <div class="site-menu-2-1 col-lg-4">
                 <img class="site-menu-2-image"
-                     src="<?php echo Yii::getAlias('@pratoImgUrlSobremesas') . '/' . $menu->imagem; ?>">
+                     src="<?php echo Yii::getAlias('@pratoImgUrlMenus') . '/' . $menu->imagem; ?>">
                 <form action="<?= Url::to(['menu']) ?>" method="post" >
                     <button class="btn-reservar"><i class="btn-reservar"></i> Add</button>
                 </form>
@@ -64,6 +66,7 @@ $sobremesas = Sobremesa::find()->all();
                 <p class="site-menu-2-paragrafo"> <?= 'Bebida: '.$menu->bebida->descricao ?> </p>
                 <p class="site-menu-2-paragrafo"> <?= 'Sobremesa: '.$menu->sobremesa->descricao ?> </p>
                 <p class="site-menu-2-preco"> <?= $menu->preco ?> €</p>
+
             </div>
             <?= ($count % 3 == 0) ? '</div>' : ''; ?>
             <?php $count++; ?>
