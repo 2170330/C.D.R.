@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="631e5bff-cb72-40f1-bfb0-f8e07a1d00c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/C.D.R.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/C.D.R.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/BebidaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/BebidaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/DiasSemanaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/DiasSemanaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/MensagemController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/MensagemController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/MenuController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/MenuController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/PratoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/PratoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/ReservaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/ReservaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/TipoPratoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/TipoPratoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/UtilizadorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/controllers/UtilizadorController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/tests/_support/FunctionalTester.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/tests/_support/FunctionalTester.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/sobremesa/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/sobremesa/_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/sobremesa/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/sobremesa/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/sobremesa/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/sobremesa/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/sobremesa/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/sobremesa/update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/layouts/submenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/layouts/submenu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/frontend/views/site/encomendas.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/site/encomendas.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,14 +18,17 @@
     <session id="-83013939">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.222" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -52,7 +37,7 @@
           <entry key="gitignore" value="1" />
           <entry key="js" value="1" />
           <entry key="json" value="1" />
-          <entry key="php" value="109" />
+          <entry key="php" value="110" />
           <entry key="rnc" value="1" />
         </counts>
       </usages-collector>
@@ -61,7 +46,7 @@
           <entry key="CSS" value="26" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="109" />
+          <entry key="PHP" value="110" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="RNG Compact" value="1" />
         </counts>
@@ -85,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advanced/backend/tests/functional/ComentarioCest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="527">
               <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
             </state>
           </provider>
@@ -94,16 +79,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advanced/backend/models/Utilizador.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1391">
-              <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+            <state relative-caret-position="527">
+              <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advanced/backend/modules/api/controllers/UtilizadorController.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/advanced/frontend/views/site/encomendas.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-357" />
+            <state relative-caret-position="104">
+              <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -136,7 +128,6 @@
         <option value="$PROJECT_DIR$/advanced/backend/config/params-local.php" />
         <option value="$PROJECT_DIR$/advanced/frontend/views/layouts/submenu.php" />
         <option value="$PROJECT_DIR$/advanced/vendor/devanych/yii2-cart/Cart.php" />
-        <option value="$PROJECT_DIR$/advanced/frontend/views/site/encomendas.php" />
         <option value="$PROJECT_DIR$/advanced/vendor/yii2mod/yii2-cart/widgets/views/cart.php" />
         <option value="$PROJECT_DIR$/advanced/backend/views/sobremesa/_form.php" />
         <option value="$PROJECT_DIR$/advanced/frontend/views/layouts/main.php" />
@@ -154,6 +145,7 @@
         <option value="$PROJECT_DIR$/advanced/backend/views/site/login.php" />
         <option value="$PROJECT_DIR$/advanced/backend/tests/functional/SobremesaCest.php" />
         <option value="$PROJECT_DIR$/advanced/backend/tests/functional/ComentarioCest.php" />
+        <option value="$PROJECT_DIR$/advanced/frontend/views/site/encomendas.php" />
       </list>
     </option>
   </component>
@@ -244,7 +236,7 @@
       <path value="$PROJECT_DIR$/advanced/vendor/yii2mod/yii2-cart" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-85" />
     <option name="y" value="15" />
     <option name="width" value="1750" />
@@ -294,15 +286,6 @@
               <item name="C.D.R" type="462c0819:PsiDirectoryNode" />
               <item name="advanced" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C.D.R" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C.D.R" type="462c0819:PsiDirectoryNode" />
-              <item name="advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -324,30 +307,22 @@
               <item name="C.D.R" type="b2602c69:ProjectViewProjectNode" />
               <item name="C.D.R" type="462c0819:PsiDirectoryNode" />
               <item name="advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C.D.R" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C.D.R" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C.D.R" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C.D.R" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="site" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C.D.R" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C.D.R" type="462c0819:PsiDirectoryNode" />
-              <item name="advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C.D.R" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C.D.R" type="462c0819:PsiDirectoryNode" />
-              <item name="advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C.D.R" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C.D.R" type="462c0819:PsiDirectoryNode" />
-              <item name="advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -397,17 +372,21 @@
       <workItem from="1547228564870" duration="8169000" />
       <workItem from="1547322086857" duration="7083000" />
       <workItem from="1547377167517" duration="1466000" />
+      <workItem from="1547414039614" duration="599000" />
+      <workItem from="1547480047822" duration="599000" />
+      <workItem from="1547481055080" duration="2000" />
+      <workItem from="1547488012389" duration="276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35938000" />
+    <option name="totallyTimeSpent" value="37414000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2751678" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26174498" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -421,7 +400,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.29929078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -518,13 +497,6 @@
     <entry file="file://$PROJECT_DIR$/advanced/vendor/yii2mod/yii2-cart/Cart.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2703" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/frontend/views/site/encomendas.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/advanced/backend/views/mensagem/view.php">
@@ -691,21 +663,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/advanced/backend/tests/functional/ComentarioCest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="527">
           <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/advanced/backend/models/Utilizador.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1391">
-          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+        <state relative-caret-position="527">
+          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/advanced/backend/modules/api/controllers/UtilizadorController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/views/site/encomendas.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357" />
+        <state relative-caret-position="104">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        </state>
       </provider>
     </entry>
   </component>
