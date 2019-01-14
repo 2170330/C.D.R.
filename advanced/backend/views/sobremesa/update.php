@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model app\models\Sobremesa */
+/* @var $model backend\models\Sobremesa */
 
 $this->title = 'Update Sobremesa: ' . $model->descricao;
 

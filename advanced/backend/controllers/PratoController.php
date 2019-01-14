@@ -7,6 +7,7 @@ use Yii;
 use backend\models\Prato;
 use app\models\PratoSearch;
 use yii\data\ActiveDataProvider;
+use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -23,6 +24,17 @@ class PratoController extends Controller
     public function behaviors()
     {
         return [
+            'access' => [
+                'class' => AccessControl::className(),
+                'rules' => [
+                    [
+                        'actions' => ['index', 'create', 'update', 'view', 'delete'],
+                        'allow' => true,
+                        'roles' => ['admin'],
+                    ],
+
+                ],
+            ],
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [

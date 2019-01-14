@@ -200,10 +200,17 @@ class SiteController extends Controller
     {
         return $this->render('menu');
     }
+
+
+
     public function actionEncomendas()
     {
+
         return $this->render('encomendas');
     }
+
+
+
     /**
      * Signs user up.
      *
