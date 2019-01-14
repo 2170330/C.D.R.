@@ -43,8 +43,6 @@ $sobremesas = Sobremesa::find()->all();
     });
 </script>
 
-<?php $cart = Yii::$app->cart; ?>
-
 <div class="site-menu row menu-image">
     <?= $this->render('@frontend/views/layouts/submenu.php'); ?>
 
