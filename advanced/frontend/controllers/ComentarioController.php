@@ -1,19 +1,18 @@
 <?php
 
-namespace backend\controllers;
+namespace frontend\controllers;
 
 use Yii;
-use backend\models\Mensagem;
-use backend\models\MensagemSearch;
-use yii\filters\AccessControl;
+use frontend\models\Comentario;
+use frontend\models\ComentarioSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * MensagemController implements the CRUD actions for Mensagem model.
+ * ComentarioController implements the CRUD actions for Comentario model.
  */
-class MensagemController extends Controller
+class ComentarioController extends Controller
 {
     /**
      * {@inheritdoc}
@@ -21,17 +20,6 @@ class MensagemController extends Controller
     public function behaviors()
     {
         return [
-            'access' => [
-                'class' => AccessControl::className(),
-                'rules' => [
-                    [
-                        'actions' => ['index', 'create', 'update', 'view', 'delete'],
-                        'allow' => true,
-                        'roles' => ['admin'],
-                    ],
-
-                ],
-            ],
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [
@@ -42,12 +30,12 @@ class MensagemController extends Controller
     }
 
     /**
-     * Lists all Mensagem models.
+     * Lists all Comentario models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new MensagemSearch();
+        $searchModel = new ComentarioSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -57,7 +45,7 @@ class MensagemController extends Controller
     }
 
     /**
-     * Displays a single Mensagem model.
+     * Displays a single Comentario model.
      * @param integer $id
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
@@ -70,13 +58,13 @@ class MensagemController extends Controller
     }
 
     /**
-     * Creates a new Mensagem model.
+     * Creates a new Comentario model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new Mensagem();
+        $model = new Comentario();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
@@ -88,7 +76,7 @@ class MensagemController extends Controller
     }
 
     /**
-     * Updates an existing Mensagem model.
+     * Updates an existing Comentario model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -108,7 +96,7 @@ class MensagemController extends Controller
     }
 
     /**
-     * Deletes an existing Mensagem model.
+     * Deletes an existing Comentario model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -122,15 +110,15 @@ class MensagemController extends Controller
     }
 
     /**
-     * Finds the Mensagem model based on its primary key value.
+     * Finds the Comentario model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return Mensagem the loaded model
+     * @return Comentario the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = Mensagem::findOne($id)) !== null) {
+        if (($model = Comentario::findOne($id)) !== null) {
             return $model;
         }
 

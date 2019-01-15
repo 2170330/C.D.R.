@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model frontend\models\MensagemForm */
+/* @var $model frontend\models\Comentario */
 /* @var $form yii\widgets\ActiveForm */
 
 if(isset($_GET['rating'])) {
@@ -13,6 +13,9 @@ if(isset($_GET['rating'])) {
 else{
     $star = 0;
 }
+
+$this->title = 'Comentarios';
+
 ?>
 
 <div class="mensagem-form-form">
@@ -36,9 +39,7 @@ else{
 
             <?= $form->field($model, 'avaliacao')->hiddenInput()->label(false) ?>
 
-            <?= $form->field($model, 'mensagem')->textInput(['maxlength' => true]) ?>
-
-            <?= $form->field($model, 'assunto')->textInput(['maxlength' => true]) ?>
+            <?= $form->field($model, 'mensagem')->textarea(['maxlength' => true, 'rows' => '5']) ?>
 
             <?php $model->id_user = Yii::$app->user->getId(); ?>
             <?= $form->field($model, 'id_user')->hiddenInput(['value' => $model->id_user])->label(false) ?>

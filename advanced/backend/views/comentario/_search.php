@@ -4,11 +4,11 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model backend\models\MensagemSearch */
+/* @var $model backend\models\ComentarioSearch */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
-<div class="mensagem-search">
+<div class="comentario-search">
 
     <?php $form = ActiveForm::begin([
         'action' => ['index'],
@@ -21,11 +21,9 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'mensagem') ?>
 
-    <?= $form->field($model, 'assunto') ?>
-
     <?= $form->field($model, 'created_at') ?>
 
-    <?php // echo $form->field($model, 'updated_at') ?>
+    <?= $form->field($model, 'updated_at') ?>
 
     <?php // echo $form->field($model, 'id_user') ?>
 

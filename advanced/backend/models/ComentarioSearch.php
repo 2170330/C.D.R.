@@ -4,12 +4,12 @@ namespace backend\models;
 
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use backend\models\Mensagem;
+use backend\models\Comentario;
 
 /**
- * MensagemSearch represents the model behind the search form of `backend\models\Mensagem`.
+ * ComentarioSearch represents the model behind the search form of `backend\models\Comentario`.
  */
-class MensagemSearch extends Mensagem
+class ComentarioSearch extends Comentario
 {
     /**
      * {@inheritdoc}
@@ -18,7 +18,7 @@ class MensagemSearch extends Mensagem
     {
         return [
             [['id', 'avaliacao', 'created_at', 'updated_at', 'id_user'], 'integer'],
-            [['mensagem', 'assunto'], 'safe'],
+            [['mensagem'], 'safe'],
         ];
     }
 
@@ -40,7 +40,7 @@ class MensagemSearch extends Mensagem
      */
     public function search($params)
     {
-        $query = Mensagem::find();
+        $query = Comentario::find();
 
         // add conditions that should always apply here
 
@@ -65,8 +65,7 @@ class MensagemSearch extends Mensagem
             'id_user' => $this->id_user,
         ]);
 
-        $query->andFilterWhere(['like', 'mensagem', $this->mensagem])
-            ->andFilterWhere(['like', 'assunto', $this->assunto]);
+        $query->andFilterWhere(['like', 'mensagem', $this->mensagem]);
 
         return $dataProvider;
     }

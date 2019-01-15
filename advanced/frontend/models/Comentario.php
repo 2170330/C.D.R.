@@ -7,26 +7,25 @@ use Yii;
 use yii\behaviors\TimestampBehavior;
 
 /**
- * This is the model class for table "mensagem".
+ * This is the model class for table "comentario".
  *
  * @property int $id
  * @property int $avaliacao
  * @property string $mensagem
- * @property string $assunto
  * @property int $created_at
  * @property int $updated_at
  * @property int $id_user
  *
  * @property User $user
  */
-class MensagemForm extends \yii\db\ActiveRecord
+class Comentario extends \yii\db\ActiveRecord
 {
     /**
      * {@inheritdoc}
      */
     public static function tableName()
     {
-        return 'mensagem';
+        return 'comentario';
     }
 
     public function behaviors()
@@ -42,10 +41,9 @@ class MensagemForm extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['avaliacao', 'mensagem', 'assunto', 'id_user'], 'required'],
+            [['avaliacao', 'mensagem', 'id_user'], 'required'],
             [['avaliacao', 'created_at', 'updated_at', 'id_user'], 'integer'],
             [['mensagem'], 'string', 'max' => 150],
-            [['assunto'], 'string', 'max' => 50],
             [['id_user'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['id_user' => 'id']],
         ];
     }
@@ -59,7 +57,6 @@ class MensagemForm extends \yii\db\ActiveRecord
             'id' => 'ID',
             'avaliacao' => 'Avaliacao',
             'mensagem' => 'Mensagem',
-            'assunto' => 'Assunto',
             'created_at' => 'Created At',
             'updated_at' => 'Updated At',
             'id_user' => 'Id User',
