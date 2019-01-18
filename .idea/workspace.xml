@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d35b1889-154e-4b58-ae20-186cc845d27c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/advanced/backend/modules/api/controllers/PratoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/modules/api/controllers/PratoController.php" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/advanced/vendor/behat/gherkin/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/bizley/migration/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/bower-asset/bootstrap/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/bower-asset/fontawesome/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/bower-asset/inputmask/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/bower-asset/jquery/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/bower-asset/punycode/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/bower-asset/typeahead.js/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/bower-asset/yii2-pjax/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/cebe/markdown/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/codeception/base/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/codeception/codeception/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/codeception/phpunit-wrapper/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/codeception/stub/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/codeception/verify/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/composer/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/doctrine/instantiator/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/ezyang/htmlpurifier/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/facebook/webdriver/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/fzaninotto/faker/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/guzzlehttp/guzzle/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/guzzlehttp/promises/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/guzzlehttp/psr7/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/kartik-v/yii2-krajee-base/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/kartik-v/yii2-widget-datetimepicker/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/myclabs/deep-copy/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/phpdocumentor/reflection-common/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/phpdocumentor/reflection-docblock/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/phpdocumentor/type-resolver/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/phpspec/php-diff/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/phpspec/prophecy/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/phpunit/php-code-coverage/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/phpunit/php-file-iterator/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/phpunit/php-text-template/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/phpunit/php-timer/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/phpunit/php-token-stream/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/phpunit/phpunit/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/phpunit/phpunit-mock-objects/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/psr/http-message/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/psr/log/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/ralouphie/getallheaders/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/rmrevin/yii2-fontawesome/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/sebastian/code-unit-reverse-lookup/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/sebastian/comparator/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/sebastian/diff/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/sebastian/environment/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/sebastian/exporter/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/sebastian/global-state/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/sebastian/object-enumerator/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/sebastian/recursion-context/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/sebastian/resource-operations/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/sebastian/version/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/swiftmailer/swiftmailer/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/symfony/browser-kit/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/symfony/console/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/symfony/css-selector/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/symfony/debug/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/symfony/dom-crawler/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/symfony/event-dispatcher/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/symfony/finder/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/symfony/polyfill-ctype/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/symfony/polyfill-mbstring/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/symfony/process/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/symfony/yaml/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/webmozart/assert/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-bootstrap/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-composer/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-debug/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-faker/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-gii/" />
+    <ignored path="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-swiftmailer/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/advanced/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="PratoController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/advanced/backend/modules/api/controllers/PratoController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/advanced/backend/modules/api/controllers/PratoController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/advanced/vendor/rmrevin/yii2-fontawesome" />
+      <path value="$PROJECT_DIR$/advanced/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/advanced/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/advanced/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/advanced/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/advanced/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/advanced/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/advanced/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/advanced/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/advanced/vendor/phpspec/php-diff" />
+      <path value="$PROJECT_DIR$/advanced/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/advanced/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/advanced/vendor/bizley/migration" />
+      <path value="$PROJECT_DIR$/advanced/vendor/behat/gherkin" />
+      <path value="$PROJECT_DIR$/advanced/vendor/cebe/markdown" />
+      <path value="$PROJECT_DIR$/advanced/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/advanced/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/advanced/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/advanced/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/advanced/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/advanced/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/advanced/vendor/codeception/base" />
+      <path value="$PROJECT_DIR$/advanced/vendor/codeception/codeception" />
+      <path value="$PROJECT_DIR$/advanced/vendor/codeception/verify" />
+      <path value="$PROJECT_DIR$/advanced/vendor/codeception/stub" />
+      <path value="$PROJECT_DIR$/advanced/vendor/codeception/phpunit-wrapper" />
+      <path value="$PROJECT_DIR$/advanced/vendor/bower-asset/inputmask" />
+      <path value="$PROJECT_DIR$/advanced/vendor/bower-asset/jquery" />
+      <path value="$PROJECT_DIR$/advanced/vendor/bower-asset/fontawesome" />
+      <path value="$PROJECT_DIR$/advanced/vendor/bower-asset/bootstrap" />
+      <path value="$PROJECT_DIR$/advanced/vendor/bower-asset/yii2-pjax" />
+      <path value="$PROJECT_DIR$/advanced/vendor/bower-asset/punycode" />
+      <path value="$PROJECT_DIR$/advanced/vendor/bower-asset/typeahead.js" />
+      <path value="$PROJECT_DIR$/advanced/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/advanced/vendor/composer" />
+      <path value="$PROJECT_DIR$/advanced/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/advanced/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/advanced/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/advanced/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/advanced/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/advanced/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/advanced/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/advanced/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/advanced/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/advanced/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/advanced/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/advanced/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/advanced/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/advanced/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/advanced/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/advanced/vendor/kartik-v/yii2-krajee-base" />
+      <path value="$PROJECT_DIR$/advanced/vendor/kartik-v/yii2-widget-datetimepicker" />
+      <path value="$PROJECT_DIR$/advanced/vendor/facebook/webdriver" />
+      <path value="$PROJECT_DIR$/advanced/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-swiftmailer" />
+      <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-gii" />
+      <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-debug" />
+      <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-composer" />
+      <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-faker" />
+      <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-bootstrap" />
+      <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2" />
+      <path value="$PROJECT_DIR$/advanced/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/advanced/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/advanced/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/advanced/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/advanced/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/advanced/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/advanced/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/advanced/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/advanced/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/advanced/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/advanced/vendor/symfony/console" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-85" />
+    <option name="y" value="15" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="C.D.R" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C.D.R" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C.D.R" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C.D.R" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C.D.R" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C.D.R" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C.D.R" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C.D.R" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C.D.R" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C.D.R" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C.D.R" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C.D.R" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d35b1889-154e-4b58-ae20-186cc845d27c" name="Default" comment="" />
+      <created>1547558082824</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547558082824</updated>
+      <workItem from="1547558087844" duration="40000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="40000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18656716" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32975295" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/advanced/backend/modules/api/controllers/PratoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

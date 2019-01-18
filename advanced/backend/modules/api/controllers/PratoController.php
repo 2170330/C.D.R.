@@ -18,7 +18,7 @@ class PratoController extends ActiveController
     public $modelClass = 'backend\models\Prato';
 
     //Utilizadores com admin podem mexer na api
-    public function behaviors()
+    /*public function behaviors()
     {
         $behaviors = parent::behaviors();
         $behaviors['authenticator'] = [
@@ -39,7 +39,7 @@ class PratoController extends ActiveController
         else{
             throw new \yii\web\NotFoundHttpException("Utilizador não encontrado ou não tem permissões");
         }
-    }
+    }*/
 
     //conta o total de Pratos que existe
     public function actionTotal()
