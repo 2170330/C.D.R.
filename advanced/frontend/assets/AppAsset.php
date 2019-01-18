@@ -21,9 +21,10 @@ class AppAsset extends AssetBundle
         'css/contato.css',
         'css/header.css',
         'css/palavrapasse-pedir.css',
+        'css/navbar.css',
     ];
     public $js = [
-        'js/site.js',
+        //'js/site.js',
         'js/comentarios.js',
     ];
     public $depends = [

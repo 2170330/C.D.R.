@@ -10,7 +10,6 @@ use backend\models\Menu;
 use backend\controllers\PratoController;
 
 $this->title = 'Menu';
-$this->params['breadcrumbs'][] = $this->title;
 
 /*public function __construct(){
     parent::__construct();
@@ -18,9 +17,6 @@ $this->params['breadcrumbs'][] = $this->title;
 }*/
 ?>
 
-<?php
-$this->params['breadcrumbs']=array('prato',);
-?>
 
 <?php
 $menus =  Menu::find()->all();

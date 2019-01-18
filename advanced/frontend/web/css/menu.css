@@ -1,12 +1,10 @@
 .site-menu-bar{
-    background-color: #D69869;
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 70%;
 
 }
-
 
 .site-menu-bar-li a{
     display: block;
@@ -22,10 +20,6 @@ li a:hover {
 
 .site-menu{
     max-width: 100%;
-}
-
-.site-menu-1{
-    padding-top: 10%;
 }
 
 .titulo-menu{
