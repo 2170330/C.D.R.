@@ -74,7 +74,13 @@
       <path value="$PROJECT_DIR$/advanced/vendor/symfony/css-selector" />
       <path value="$PROJECT_DIR$/advanced/vendor/symfony/process" />
       <path value="$PROJECT_DIR$/advanced/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-codeception" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="5.4.0" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="$PROJECT_DIR$/advanced/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
 </project>
