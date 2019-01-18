@@ -6,7 +6,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model backend\models\Prato */
 
-$this->title = 'Create Prato';
+$this->title = 'Criar Prato';
 ?>
 <?= $this->render('@backend/views/layouts/submenu.php'); ?>
 

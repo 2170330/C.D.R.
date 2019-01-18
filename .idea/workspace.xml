@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="85413520-71ee-4878-9f83-f83eccb786a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/C.D.R.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/C.D.R.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
@@ -13,6 +14,9 @@
       <change beforePath="$PROJECT_DIR$/advanced/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/composer.lock" afterDir="false" />
     </list>
+=======
+    <list default="true" id="631e5bff-cb72-40f1-bfb0-f8e07a1d00c4" name="Default Changelist" comment="" />
+>>>>>>> Carlos
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +45,7 @@
     <session id="-1233243911">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+<<<<<<< HEAD
           <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
@@ -48,31 +53,69 @@
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="1" />
           <entry key="project.opened" value="5" />
+=======
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.19" value="3" />
+          <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.21" value="2" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.222" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="15" />
+>>>>>>> Carlos
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+<<<<<<< HEAD
           <entry key="json" value="2" />
           <entry key="php" value="32" />
           <entry key="yii_test" value="1" />
           <entry key="yml" value="3" />
+=======
+          <entry key="css" value="26" />
+          <entry key="gitignore" value="1" />
+          <entry key="js" value="2" />
+          <entry key="json" value="1" />
+          <entry key="php" value="170" />
+          <entry key="rnc" value="1" />
+>>>>>>> Carlos
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< HEAD
           <entry key="JSON" value="2" />
           <entry key="PHP" value="33" />
           <entry key="YAML" value="3" />
+=======
+          <entry key="CSS" value="26" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="2" />
+          <entry key="PHP" value="170" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="RNG Compact" value="1" />
+>>>>>>> Carlos
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="json" value="3" />
           <entry key="php" value="1344" />
+=======
+          <entry key="css" value="110" />
+          <entry key="js" value="4" />
+          <entry key="php" value="2743" />
+>>>>>>> Carlos
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="JSON" value="3" />
           <entry key="PHP" value="1344" />
         </counts>
@@ -80,12 +123,18 @@
       <usages-collector id="statistics.php.composer.actions">
         <counts>
           <entry key="install_from_ComposerEditorNotificationPanel" value="4" />
+=======
+          <entry key="CSS" value="110" />
+          <entry key="JavaScript" value="4" />
+          <entry key="PHP" value="2743" />
+>>>>>>> Carlos
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/advanced/backend/tests/unit/PratoTest.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -127,23 +176,49 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="969">
               <caret line="57" selection-start-line="57" selection-end-line="57" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/advanced/backend/tests/unit/PratoTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#6#87#0#PHP" expanded="true" />
+              </folding>
+>>>>>>> Carlos
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/advanced/backend/tests/unit/BebidaTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="473">
               <caret line="88" column="28" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="28" />
               <folding>
                 <element signature="e#32#58#0#PHP" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/advanced/backend/models/Menu.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced/backend/models/Bebida.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#2500#3198#0#PHP" />
+                <element signature="e#3204#3442#0#PHP" />
+                <element signature="e#3448#3936#0#PHP" />
+>>>>>>> Carlos
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/advanced/backend/models/Menu.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-445" />
@@ -164,6 +239,8 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+=======
+>>>>>>> Carlos
         <entry file="file://$PROJECT_DIR$/advanced/backend/models/Sobremesa.php">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -190,6 +267,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/advanced/backend/config/test-local.php" />
         <option value="$PROJECT_DIR$/advanced/composer.json" />
         <option value="$PROJECT_DIR$/advanced/backend/models/Prato.php" />
@@ -198,6 +276,55 @@
         <option value="$PROJECT_DIR$/advanced/backend/tests/unit/BebidaTest.php" />
         <option value="$PROJECT_DIR$/advanced/backend/tests/unit/PratoTest.php" />
         <option value="$PROJECT_DIR$/advanced/backend/tests/unit/MenuTest.php" />
+=======
+        <option value="$PROJECT_DIR$/advanced/backend/web/css/navbar.css" />
+        <option value="$PROJECT_DIR$/advanced/frontend/web/css/navbar.css" />
+        <option value="$PROJECT_DIR$/advanced/frontend/web/css/menu.css" />
+        <option value="$PROJECT_DIR$/advanced/frontend/web/css/inicio.css" />
+        <option value="$PROJECT_DIR$/advanced/frontend/views/site/menu.php" />
+        <option value="$PROJECT_DIR$/advanced/frontend/assets/AppAsset.php" />
+        <option value="$PROJECT_DIR$/advanced/frontend/web/js/site.js" />
+        <option value="$PROJECT_DIR$/advanced/backend/tests/_support/FunctionalTester.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/views/mensagem/_form.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/views/mensagem/view.php" />
+        <option value="$PROJECT_DIR$/advanced/frontend/config/params-local.php" />
+        <option value="$PROJECT_DIR$/advanced/frontend/views/layouts/submenu.php" />
+        <option value="$PROJECT_DIR$/advanced/vendor/devanych/yii2-cart/Cart.php" />
+        <option value="$PROJECT_DIR$/advanced/vendor/yii2mod/yii2-cart/widgets/views/cart.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/views/sobremesa/_form.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/views/sobremesa/create.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/views/sobremesa/index.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/views/sobremesa/update.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/controllers/BebidaController.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/controllers/TipoPratoController.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/controllers/UtilizadorController.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/controllers/ReservaController.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/controllers/PratoController.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/controllers/MenuController.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/controllers/MensagemController.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/controllers/DiasSemanaController.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/views/site/login.php" />
+        <option value="$PROJECT_DIR$/advanced/frontend/views/site/encomendas.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/config/params-local.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/tests/functional/SobremesaCest.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/tests/functional/ReservaCest.php" />
+        <option value="$PROJECT_DIR$/advanced/frontend/views/site/_form.php" />
+        <option value="$PROJECT_DIR$/advanced/frontend/web/js/comentarios.js" />
+        <option value="$PROJECT_DIR$/advanced/frontend/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/advanced/frontend/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/advanced/frontend/views/site/comentarios.php" />
+        <option value="$PROJECT_DIR$/advanced/frontend/models/Comentario.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/controllers/ComentarioController.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/views/layouts/submenu.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/views/prato/create.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/views/comentario/_form.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/views/comentario/view.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/views/comentario/update.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/views/comentario/index.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/views/comentario/create.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/models/Comentario.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/tests/functional/ComentarioCest.php" />
+>>>>>>> Carlos
       </list>
     </option>
   </component>
@@ -283,14 +410,29 @@
       <path value="$PROJECT_DIR$/advanced/vendor/symfony/debug" />
       <path value="$PROJECT_DIR$/advanced/vendor/symfony/css-selector" />
       <path value="$PROJECT_DIR$/advanced/vendor/symfony/process" />
+<<<<<<< HEAD
       <path value="$PROJECT_DIR$/advanced/vendor/symfony/console" />
+=======
+      <path value="$PROJECT_DIR$/advanced/vendor/codeception/codeception" />
+      <path value="$PROJECT_DIR$/advanced/vendor/yii2mod/yii2-cart" />
+      <path value="$PROJECT_DIR$/advanced/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/advanced/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/advanced/vendor/symfony/debug" />
+>>>>>>> Carlos
       <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-codeception" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="-10" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
+=======
+    <option name="x" value="-85" />
+    <option name="y" value="15" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
+>>>>>>> Carlos
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -336,6 +478,17 @@
               <item name="advanced" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="functional" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C.D.R" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C.D.R" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+>>>>>>> Carlos
               <item name="unit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -356,6 +509,19 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\C.D.R\advanced\frontend\web\css" />
+      <recent name="D:\wamp64\www\C.D.R\advanced\frontend\views\layouts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\C.D.R\advanced\backend\tests\_data" />
+      <recent name="D:\wamp64\www\C.D.R\advanced\backend\web\img\sobremesa" />
+    </key>
+  </component>
+>>>>>>> Carlos
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -377,22 +543,49 @@
       <created>1547114737072</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1547114737072</updated>
       <workItem from="1547114738185" duration="1521000" />
       <workItem from="1547200851044" duration="4442000" />
       <workItem from="1547551376332" duration="9455000" />
       <workItem from="1547569268776" duration="3365000" />
       <workItem from="1547813841416" duration="1099000" />
+=======
+      <updated>1547114341511</updated>
+      <workItem from="1547114342769" duration="1745000" />
+      <workItem from="1547134378304" duration="4994000" />
+      <workItem from="1547146244994" duration="8466000" />
+      <workItem from="1547200814762" duration="3143000" />
+      <workItem from="1547204800222" duration="872000" />
+      <workItem from="1547228564870" duration="8169000" />
+      <workItem from="1547322086857" duration="7083000" />
+      <workItem from="1547377167517" duration="1466000" />
+      <workItem from="1547414039614" duration="599000" />
+      <workItem from="1547480047822" duration="599000" />
+      <workItem from="1547481055080" duration="2000" />
+      <workItem from="1547488012389" duration="276000" />
+      <workItem from="1547551627486" duration="1849000" />
+      <workItem from="1547553640937" duration="6714000" />
+      <workItem from="1547579025611" duration="599000" />
+>>>>>>> Carlos
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="19882000" />
+=======
+    <option name="totallyTimeSpent" value="46795000" />
+>>>>>>> Carlos
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2624161" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26644295" />
+>>>>>>> Carlos
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -406,7 +599,11 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+=======
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.20425531" />
+>>>>>>> Carlos
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -420,6 +617,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/advanced/frontend/web/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -594,10 +792,295 @@
           <caret line="88" column="28" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="28" />
           <folding>
             <element signature="e#32#58#0#PHP" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/advanced/backend/models/Bebida.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#2500#3198#0#PHP" />
+            <element signature="e#3204#3442#0#PHP" />
+            <element signature="e#3448#3936#0#PHP" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/controllers/TipoPratoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/controllers/ReservaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/controllers/PratoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/controllers/BebidaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/controllers/SobremesaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/views/site/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/controllers/UtilizadorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/models/UtilizadorSearch.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/modules/api/controllers/UtilizadorController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/views/site/encomendas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/tests/_data/login_data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/views/site/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="67" column="76" selection-start-line="67" selection-start-column="76" selection-end-line="67" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/config/params-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/models/MensagemForm.php" />
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/controllers/MensagemFormController.php" />
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/web/js/comentarios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="154" column="37" selection-start-line="154" selection-start-column="37" selection-end-line="154" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/controllers/ComentarioController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-302" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/models/Prato.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-969" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="42" column="63" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/views/site/contact.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/views/site/comentarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/models/Comentario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/controllers/MensagemController.php" />
+    <entry file="file://$PROJECT_DIR$/advanced/backend/models/Mensagem.php" />
+    <entry file="file://$PROJECT_DIR$/advanced/backend/views/menu/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/controllers/MenuController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="40" column="14" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="40" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/controllers/DiasSemanaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="33" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/models/Sobremesa.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/models/Utilizador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="57" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/views/prato/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="46" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/views/layouts/submenu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/views/prato/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/views/prato/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="37" selection-start-line="37" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/views/prato/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/views/prato/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/views/reserva/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/views/comentario/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/views/comentario/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/views/comentario/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/views/comentario/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/vendor/phpunit/phpunit/src/Framework/Assert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/controllers/ComentarioController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/tests/functional/ReservaCest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/tests/functional/SobremesaCest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+          <folding>
+            <element signature="e#42#77#0#PHP" expanded="true" />
+>>>>>>> Carlos
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/advanced/backend/models/Menu.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-445" />
@@ -617,6 +1100,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="473">
           <caret line="104" column="40" lean-forward="true" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="40" />
+=======
+    <entry file="file://$PROJECT_DIR$/advanced/backend/models/Comentario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/views/comentario/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/tests/functional/ComentarioCest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+>>>>>>> Carlos
         </state>
       </provider>
     </entry>

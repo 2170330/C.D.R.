@@ -4,18 +4,17 @@ use yii\helpers\Html;
 use yii\widgets\DetailView;
 
 /* @var $this yii\web\View */
-/* @var $model backend\models\Mensagem */
+/* @var $model backend\models\Comentario */
 
 $this->title = $model->id;
 ?>
-
 <?= $this->render('@backend/views/layouts/submenu.php'); ?>
 
-<div class="mensagem-view, backend-form">
+<div class="comentario-view backend-form">
 
     <h1 class="backend-titulo"><?= Html::encode($this->title) ?></h1>
 
-    <i>  <?= Html::a('', ['/mensagem/index'], ['class'=>'fas fa-arrow-left  voltar-button']) ?> </i>
+    <i> <?= Html::a('', ['/comentario/index'], ['class'=>'fas fa-arrow-left  voltar-button']) ?> </i>
 
     <p>
         <?= Html::a('Atualizar', ['update', 'id' => $model->id], ['class' => 'backend-criar']) ?>
@@ -28,16 +27,16 @@ $this->title = $model->id;
         ]) ?>
     </p>
 
-    <div class="backend-cores">
+    <div class="views-padding">
         <?= DetailView::widget([
             'model' => $model,
             'attributes' => [
                 'id',
                 'avaliacao',
                 'mensagem',
-                'assunto',
                 'created_at',
                 'updated_at',
+                'id_user',
                 [
                     'label' => 'Utilizador',
                     'attribute' => 'user.username',
