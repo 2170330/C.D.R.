@@ -32,9 +32,15 @@ $this->title = $model->id;
             'model' => $model,
             'attributes' => [
                 'id',
-                'nPessoas',
+                [
+                    'label' => 'Número de Pessoas',
+                    'attribute' => 'nPessoas',
+                ],
                 'data',
-                'id_user',
+                [
+                    'label' => 'Utilizador',
+                    'attribute' => 'user.username',
+                ],
             ],
         ]) ?>
     </div>

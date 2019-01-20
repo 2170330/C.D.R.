@@ -1,14 +1,18 @@
 <?php
 
 /* @var $this yii\web\View */
+/* @var $model backend\models\Encomenda */
+/* @var $form yii\widgets\ActiveForm */
 
 use yii\helpers\Html;
 use backend\models\Prato;
 use backend\models\Sobremesa;
 use backend\models\Bebida;
 use backend\models\Menu;
+use backend\models\Encomenda;
 use backend\controllers\PratoController;
 use yii\helpers\Url;
+use yii\widgets\ActiveForm;
 
 $this->title = 'Encomendas';
 
@@ -54,11 +58,18 @@ $sobremesas = Sobremesa::find()->all();
         foreach ($menus as $menu): ?>
             <?= ($count % 3 == 0) ? '<div class="row">' : ''; ?>
             <div class="site-menu-2-1 col-lg-4">
-                <img class="site-menu-2-image"
-                     src="<?php echo Yii::getAlias('@pratoImgUrlMenus') . '/' . $menu->imagem; ?>">
-                <form action="<?= Url::to(['menu']) ?>" method="post" >
-                    <button class="btn-reservar"><i class="btn-reservar"></i> Add</button>
-                </form>
+                <div class="opacity">
+                    <form action="<?= Url::to(['encomendas']) ?>" method="post" >
+                        <input type="image" class="site-encomenda-2-image" src="<?php echo Yii::getAlias('@pratoImgUrlMenus') . '/' . $menu->imagem; ?>" alt="Submit Form">
+                    </form>
+                    <div class="middle">
+                        <form action="<?= Url::to(['encomendas']) ?>" method="post" >
+
+                            <button class="btn-encomenda"><i class="fas fa-shopping-cart"></i></button>
+                        </form>
+                    </div>
+                </div>
+
                 <h1 class="site-menu-2-titulo"> <?= $menu->prato->descricao ?> </h1>
                 <p class="line-grey"> ____________</p>
                 <p class="site-menu-2-paragrafo"> <?= 'Bebida: '.$menu->bebida->descricao ?> </p>
@@ -81,12 +92,20 @@ $sobremesas = Sobremesa::find()->all();
             if ($prato->id_tipo_prato == 1) { ?>
                 <?= ($count % 3 == 0) ? '<div class="row">' : ''; ?>
                 <div class="site-menu-2-1 col-lg-4">
-                    <img class="site-menu-2-image"
-                         src="<?php echo Yii::getAlias('@pratoImgUrlCarne') . '/' . $prato->imagem; ?>">
+                    <div class="opacity">
+                        <img class="site-encomenda-2-image"
+                             src="<?php echo Yii::getAlias('@pratoImgUrlCarne') . '/' . $prato->imagem; ?>">
+                        <div class="middle">
+                            <form action="<?= Url::to(['encomendas']) ?>" method="post" >
+                                <button class="btn-encomenda"><i class="fas fa-shopping-cart"></i></button>
+                            </form>
+                        </div>
+                    </div>
+
                     <h1 class="site-menu-2-titulo"> <?= $prato->descricao ?> </h1>
                     <p class="line-grey"> ____________</p>
-                    <!-- <p class="site-menu-2-paragrafo"> Esse é um item do seu menu. Adicione uma breve descrição </p> -->
                     <p class="site-menu-2-preco"> <?= $prato->preco ?> €</p>
+
                 </div>
                 <?= ($count % 3 == 0) ? '</div>' : ''; ?>
                 <?php $count++;
@@ -105,8 +124,15 @@ $sobremesas = Sobremesa::find()->all();
             if ($prato->id_tipo_prato == 2) { ?>
                 <?= ($count % 3 == 0) ? '<div class="row">' : ''; ?>
                 <div class="site-menu-2-1 col-lg-4">
-                    <img class="site-menu-2-image"
-                         src="<?php echo Yii::getAlias('@pratoImgUrlPeixe') . '/' . $prato->imagem; ?>">
+                    <div class="opacity">
+                        <img class="site-encomenda-2-image"
+                             src="<?php echo Yii::getAlias('@pratoImgUrlPeixe') . '/' . $prato->imagem; ?>">
+                        <div class="middle">
+                            <form action="<?= Url::to(['encomendas']) ?>" method="post" >
+                                <button class="btn-encomenda"><i class="fas fa-shopping-cart"></i></button>
+                            </form>
+                        </div>
+                    </div>
                     <h1 class="site-menu-2-titulo"> <?= $prato->descricao ?> </h1>
                     <p class="line-grey"> ____________</p>
                     <!-- <p class="site-menu-2-paragrafo"> Esse é um item do seu menu. Adicione uma breve descrição </p> -->
@@ -127,8 +153,15 @@ $sobremesas = Sobremesa::find()->all();
             if ($prato->id_tipo_prato == 3) { ?>
                 <?= ($count % 3 == 0) ? '<div class="row">' : ''; ?>
                 <div class="site-menu-2-1 col-lg-4">
-                    <img class="site-menu-2-image"
-                         src="<?php echo Yii::getAlias('@pratoImgUrlVegetariano') . '/' . $prato->imagem; ?>">
+                    <div class="opacity">
+                        <img class="site-encomenda-2-image"
+                             src="<?php echo Yii::getAlias('@pratoImgUrlVegetariano') . '/' . $prato->imagem; ?>">
+                        <div class="middle">
+                            <form action="<?= Url::to(['encomendas']) ?>" method="post" >
+                                <button class="btn-encomenda"><i class="fas fa-shopping-cart"></i></button>
+                            </form>
+                        </div>
+                    </div>
                     <h1 class="site-menu-2-titulo"> <?= $prato->descricao ?> </h1>
                     <p class="line-grey"> ____________</p>
                     <!-- <p class="site-menu-2-paragrafo"> Esse é um item do seu menu. Adicione uma breve descrição </p> -->
@@ -151,8 +184,15 @@ $sobremesas = Sobremesa::find()->all();
             if ($prato->id_tipo_prato == 4) { ?>
                 <?= ($count % 3 == 0) ? '<div class="row">' : ''; ?>
                 <div class="site-menu-2-1 col-lg-4">
-                    <img class="site-menu-2-image"
-                         src="<?php echo Yii::getAlias('@pratoImgUrlVegan') . '/' . $prato->imagem; ?>">
+                    <div class="opacity">
+                        <img class="site-encomenda-2-image"
+                             src="<?php echo Yii::getAlias('@pratoImgUrlVegan') . '/' . $prato->imagem; ?>">
+                        <div class="middle">
+                            <form action="<?= Url::to(['encomendas']) ?>" method="post" >
+                                <button class="btn-encomenda"><i class="fas fa-shopping-cart"></i></button>
+                            </form>
+                        </div>
+                    </div>
                     <h1 class="site-menu-2-titulo"> <?= $prato->descricao ?> </h1>
                     <p class="line-grey"> ____________</p>
                     <!-- <p class="site-menu-2-paragrafo"> Esse é um item do seu menu. Adicione uma breve descrição </p> -->
@@ -173,8 +213,15 @@ $sobremesas = Sobremesa::find()->all();
             if ($bebida->id_tipo_bebida == 1) { ?>
                 <?= ($count % 3 == 0) ? '<div class="row">' : ''; ?>
                 <div class="site-menu-2-1 col-lg-4">
-                    <img class="site-menu-2-image"
-                         src="<?php echo Yii::getAlias('@pratoImgUrlSumos') . '/' . $bebida->imagem; ?>">
+                    <div class="opacity">
+                        <img class="site-encomenda-2-image"
+                             src="<?php echo Yii::getAlias('@pratoImgUrlSumos') . '/' . $bebida->imagem; ?>">
+                        <div class="middle">
+                            <form action="<?= Url::to(['encomendas']) ?>" method="post" >
+                                <button class="btn-encomenda"><i class="fas fa-shopping-cart"></i></button>
+                            </form>
+                        </div>
+                    </div>
                     <h1 class="site-menu-2-titulo"> <?= $bebida->descricao ?> </h1>
                     <p class="line-grey"> ____________</p>
                     <!-- <p class="site-menu-2-paragrafo"> Esse é um item do seu menu. Adicione uma breve descrição </p> -->
@@ -195,8 +242,15 @@ $sobremesas = Sobremesa::find()->all();
             if ($bebida->id_tipo_bebida == 2) { ?>
                 <?= ($count % 3 == 0) ? '<div class="row">' : ''; ?>
                 <div class="site-menu-2-1 col-lg-4">
-                    <img class="site-menu-2-image"
-                         src="<?php echo Yii::getAlias('@pratoImgUrlVinhos') . '/' . $bebida->imagem; ?>">
+                    <div class="opacity">
+                        <img class="site-encomenda-2-image"
+                             src="<?php echo Yii::getAlias('@pratoImgUrlVinhos') . '/' . $bebida->imagem; ?>">
+                        <div class="middle">
+                            <form action="<?= Url::to(['encomendas']) ?>" method="post" >
+                                <button class="btn-encomenda"><i class="fas fa-shopping-cart"></i></button>
+                            </form>
+                        </div>
+                    </div>
                     <h1 class="site-menu-2-titulo"> <?= $bebida->descricao ?> </h1>
                     <p class="line-grey"> ____________</p>
                     <!-- <p class="site-menu-2-paragrafo"> Esse é um item do seu menu. Adicione uma breve descrição </p> -->
@@ -217,8 +271,15 @@ $sobremesas = Sobremesa::find()->all();
             if ($bebida->id_tipo_bebida == 3) { ?>
                 <?= ($count % 3 == 0) ? '<div class="row">' : ''; ?>
                 <div class="site-menu-2-1 col-lg-4">
-                    <img class="site-menu-2-image"
-                         src="<?php echo Yii::getAlias('@pratoImgUrlOutros') . '/' . $bebida->imagem; ?>">
+                    <div class="opacity">
+                        <img class="site-encomenda-2-image"
+                             src="<?php echo Yii::getAlias('@pratoImgUrlOutros') . '/' . $bebida->imagem; ?>">
+                        <div class="middle">
+                            <form action="<?= Url::to(['encomendas']) ?>" method="post" >
+                                <button class="btn-encomenda"><i class="fas fa-shopping-cart"></i></button>
+                            </form>
+                        </div>
+                    </div>
                     <h1 class="site-menu-2-titulo"> <?= $bebida->descricao ?> </h1>
                     <p class="line-grey"> ____________</p>
                     <!-- <p class="site-menu-2-paragrafo"> Esse é um item do seu menu. Adicione uma breve descrição </p> -->
@@ -239,8 +300,15 @@ $sobremesas = Sobremesa::find()->all();
         foreach ($sobremesas as $sobremesa): ?>
             <?= ($count % 3 == 0) ? '<div class="row">' : ''; ?>
             <div class="site-menu-2-1 col-lg-4">
-                <img class="site-menu-2-image"
-                     src="<?php echo Yii::getAlias('@pratoImgUrlSobremesas') . '/' . $sobremesa->imagem; ?>">
+                <div class="opacity">
+                    <img class="site-encomenda-2-image"
+                         src="<?php echo Yii::getAlias('@pratoImgUrlSobremesas') . '/' . $sobremesa->imagem; ?>">
+                    <div class="middle">
+                        <form action="<?= Url::to(['encomendas']) ?>" method="post" >
+                            <button class="btn-encomenda"><i class="fas fa-shopping-cart"></i></button>
+                        </form>
+                    </div>
+                </div>
                 <h1 class="site-menu-2-titulo"> <?= $sobremesa->descricao ?> </h1>
                 <p class="line-grey"> ____________</p>
                 <!-- <p class="site-menu-2-paragrafo"> Esse é um item do seu menu. Adicione uma breve descrição </p> -->

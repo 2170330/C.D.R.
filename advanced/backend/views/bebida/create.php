@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model backend\models\Bebida */
 
-$this->title = 'Create Bebida';
+$this->title = 'Criar Bebida';
 ?>
 
 <?= $this->render('@backend/views/layouts/submenu.php'); ?>
