@@ -90,15 +90,17 @@ class PratoTest extends \Codeception\Test\Unit
     {
 
         $id = $this->tester->grabRecord('backend\models\Prato', ['descricao' => 'Chouriça']);
-       $prato = Prato::findOne($id);
+        $prato = Prato::findOne($id);
         $prato->descricao = 'Alheira';
-       $prato->update();
+        $prato->update();
 
        $this->tester->seeRecord('backend\models\Prato', ['descricao' => 'Chouriça']);
     }
 
     function testDelete(){
 
+        //$id = $this->tester->grabRecord('backend\models\Prato', ['descricao' => 'Alheira']);
+        //Menu::deleteAll(['id_prato' => 1]);
 
         Menu::deleteAll();
         Prato::deleteAll(['descricao' => 'Alheira']);
