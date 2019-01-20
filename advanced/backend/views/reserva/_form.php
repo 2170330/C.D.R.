@@ -22,7 +22,7 @@ use backend\models\Utilizador;
             '4' => '4 pessoas',
             '5' => '5 pessoas',
             '6' => '6 pessoas'
-        ]))->label("Número de pessoas");
+        ]))
     ?>
 
     <?= $form->field($model, 'data')->widget(DateTimePicker::className(),

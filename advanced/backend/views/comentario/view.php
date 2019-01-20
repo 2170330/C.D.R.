@@ -36,6 +36,7 @@ $this->title = $model->id;
                 'mensagem',
                 'created_at',
                 'updated_at',
+                'id_user',
                 [
                     'label' => 'Utilizador',
                     'attribute' => 'user.username',
