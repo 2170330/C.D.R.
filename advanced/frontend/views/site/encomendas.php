@@ -48,7 +48,7 @@ $sobremesas = Sobremesa::find()->all();
 </script>
 
 <div class="site-menu row menu-image">
-    <?= $this->render('@frontend/views/layouts/submenu.php'); ?>
+        <?= $this->render('@frontend/views/layouts/submenu.php'); ?>
 
     <div class="site-menu-2 clearfix col-lg-9">
         <p id="menu" class="titulo-menu"> Menus </p>
