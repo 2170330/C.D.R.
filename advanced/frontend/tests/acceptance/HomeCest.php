@@ -11,10 +11,12 @@ class HomeCest
         $I->amOnPage(Url::toRoute('/site/index'));
         $I->see('C.D.R.');
 
-        $I->seeLink('Login');
-        $I->click('Login');
+
+        $I->click('LOGIN');
         $I->wait(2); // wait for page to be opened
 
         $I->see('Iniciar sessão');
+
+        
     }
 }
