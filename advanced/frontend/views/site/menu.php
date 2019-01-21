@@ -42,22 +42,10 @@ $sobremesas = Sobremesa::find()->all();
 </script>
 
 <div class="site-menu row menu-image">
-    <div class="site-menu-1 col-lg-3">
-        <ul class="site-menu-bar">
-            <li class="site-menu-bar-li"><a href="#menu">Menu</a></li>
-            <li class="site-menu-bar-li"><a href="#carne">Carne</a></li>
-            <li class="site-menu-bar-li"><a href="#peixe">Peixe</a></li>
-            <li class="site-menu-bar-li"><a href="#vegetariano">Vegetariano</a></li>
-            <li class="site-menu-bar-li"><a href="#vegan">Vegan</a></li>
-            <li class="site-menu-bar-li"><a href="#sumos">Sumos</a></li>
-            <li class="site-menu-bar-li"><a href="#vinhos">Vinhos</a></li>
-            <li class="site-menu-bar-li"><a href="#outros">Outras bebidas</a></li>
-            <li class="site-menu-bar-li"><a href="#sobremesas">Sobremesas</a></li>
-        </ul>
-    </div>
+    <?= $this->render('@frontend/views/layouts/submenu.php'); ?>
 
     <div class="site-menu-2 clearfix col-lg-9">
-        <p id="sobremesas" class="titulo-menu"> Sobremesas </p>
+        <p id="menuf" class="titulo-menu"> Sobremesas </p>
         <p class="line"> _____</p>
         <?php
         $count = 1;
@@ -65,7 +53,7 @@ $sobremesas = Sobremesa::find()->all();
             <?= ($count % 3 == 0) ? '<div class="row">' : ''; ?>
             <div class="site-menu-2-1 col-lg-4">
                 <img class="site-menu-2-image"
-                     src="<?php echo Yii::getAlias('@pratoImgUrlSobremesas') . '/' . $menu->imagem; ?>">
+                     src="<?php echo Yii::getAlias('@pratoImgUrlMenus') . '/' . $menu->imagem; ?>">
                 <h1 class="site-menu-2-titulo"> <?= $menu->prato->descricao ?> </h1>
                 <p class="line-grey"> ____________</p>
                 <p class="site-menu-2-paragrafo"> <?= 'Bebida: '.$menu->bebida->descricao ?> </p>

@@ -64,7 +64,7 @@ $this->title = 'C.D.R';
         <?= $form->field($model, 'id_user')->hiddenInput(['value' => $model->id_user])->label(false) ?>
 
         <div class="col-spaced col-lg-4">
-            <?= Html::submitButton('Comentar', ['class' => 'btn-reservar']) ?>
+            <?= Html::submitButton('Reservar', ['class' => 'btn-reservar']) ?>
         </div>
 
         <?php ActiveForm::end(); ?>
@@ -80,8 +80,8 @@ $this->title = 'C.D.R';
     <h1 class="titulo-1"> OS NOSSOS MENUS</h1> <br>
 
 
-    <p class="paragrafo-1"> Todos os menus aqui são elaborados coma precisão de agradar todos os clientes, diversificando todas as nossas ementas e costumizar o seu prato à sua escolha. </p>
-    <a class="btn-ver-menu" href="http://www.yiiframework.com">Veja o nosso menu!</a>
+    <p class="paragrafo-1"> Todos os menus aqui são elaborados com o objetivo de agradar todos os nossos clientes, diversificando todas as nossas ementas e costumizar o seu prato à sua escolha. </p>
+    <?= Html::a('Veja o nosso Menu!', ['/site/menu'], ['class'=>'btn-ver-menu ']) ?>
 
     <br><br><br><br><br><br><br><br><br><br>
 </div>

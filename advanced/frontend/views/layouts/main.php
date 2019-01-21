@@ -41,7 +41,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/png', 'href' => '../we
         ['label' => 'MENU', 'url' => ['/site/menu']],
         ['label' => 'ENCOMENDAS', 'url' => ['/site/encomendas']],
         ['label' => 'COMENTARIOS', 'url' => ['/site/comentario']],
-        ['label' => 'CONTATO', 'url' => ['/site/contact']],
+        ['label' => 'CONTACTO', 'url' => ['/site/contact']],
         '<i class="fa fa-facebook header-icon header-facebook"></i>',
         '<i class="fa fa-twitter header-icon header-twitter" ></i>',
         '<i class="fa fa-whatsapp header-icon header-whatsapp"></i>',

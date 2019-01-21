@@ -84,7 +84,9 @@ class SiteController extends Controller
         if ($model->load(Yii::$app->request->post())) {
             if ($user == $model->id_user) {
                 if($model->save())
-                    return $this->redirect(['index', 'id' => $model->id]);
+                    Yii::$app->session->setFlash('success', 'Muito bem');
+
+                return $this->redirect(['index', 'id' => $model->id]);
             }
         }
 
@@ -245,11 +247,7 @@ class SiteController extends Controller
 
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
             if ($model->sendEmail()) {
-                Yii::$app->session->setFlash('success', 'Verifique o seu email para futuras instruções.');
-
                 return $this->goHome();
-            } else {
-                Yii::$app->session->setFlash('error', ' Não é possível resetar a password por causa do email colocado.');
             }
         }
 
