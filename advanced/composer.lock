@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d45256ac62e918bf3d67012cfbb32cda",
+    "content-hash": "4ea80054807ca17950a59cd010c470c5",
     "packages": [
         {
             "name": "bizley/migration",
