@@ -1,109 +1,81 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: rafae
+ * Date: 19/12/2018
+ * Time: 12:33
+ */
 
-use backend\models\Menu;
 use backend\models\Prato;
 
 class PratoTest extends \Codeception\Test\Unit
 {
-    /**
-     * @var \backend\tests\UnitTester
-     */
-    protected $tester;
 
-    protected function _before()
+    public function testGetPratoIngredientes()
     {
-    }
-
-    protected function _after()
-    {
-    }
-
-    public function testSomeFeature()
-    {
-
 
     }
 
-    public  function testInvalidat(){
+    public function testAttributeLabels()
+    {
+
+    }
+
+    public function testGetTipoPrato()
+    {
+
+    }
+
+    public function testRules()
+    {
+
+    }
+
+    public function testTableName()
+    {
 
         $prato = new Prato();
 
-        $prato->descricao = null;
-        $this->assertFalse($prato->validate(['descricao']));
+        $prato->descricao = "Chouriça";
 
-        $prato ->preco = null;
-        $this->assertFalse($prato->validate(['preco']));
-
-        $prato ->preco = 'asdasd';
-        $this->assertFalse($prato->validate(['preco']));
-
-        $prato ->id_tipo_prato = null;
-        $this->assertFalse($prato->validate(['id_tipo_prato']));
-
-        $prato ->id_tipo_prato = 'abc';
-        $this->assertFalse($prato->validate(['id_tipo_prato']));
-
-        $prato->imagem = null;
-        $this->assertFalse($prato->validate(['imagem']));
-
-        $prato->id_dia_semana = 'abc';
-        $this->assertFalse($prato->validate(['id_dia_semana']));
-
-        $prato->id_dia_semana = null;
-        $this->assertFalse($prato->validate(['id_dia_semana']));
-
-    }
-
-
-    public function testSave(){
-
-        $prato = new Prato();
-
-        $prato->descricao = 'Chouriça';
-        $this->assertTrue($prato->validate(['descricao']));
-
-        $prato ->preco = 2.3;
-        $this->assertTrue($prato->validate(['preco']));
-
-        $prato ->id_tipo_prato = 1;
-        $this->assertTrue($prato->validate(['id_tipo_prato']));
-
-        $prato->imagem = 'chouriça.png';
-        $this->assertTrue($prato->validate(['imagem']));
-
+        $prato->preco = 2.3;
+        $prato->id_tipo_prato = 1;
+        $prato->imagem = "chouriça.png";
         $prato->id_dia_semana = 1;
-        $this->assertTrue($prato->validate(['id_dia_semana']));
 
-        $prato->save();
+        $prato->save(true);
 
-        $this->assertEquals('Chouriça',$prato->descricao);
-        $this->assertEquals(2.3,$prato->preco);
-        $this->assertEquals(1,$prato->id_tipo_prato);
-        $this->assertEquals('chouriça.png',$prato->imagem);
-        $this->assertEquals(1,$prato->id_dia_semana);
 
-        $this->tester->seeInDatabase('prato',['descricao' => 'Chouriça' , 'preco' =>'2.3', 'id_tipo_prato' =>'1', 'imagem' => 'chouriça.png', 'id_dia_semana' => '1']);
+    }
 
-        }
-
-    public function testUpdate()
+    public function testGetDiaSemana()
     {
 
+<<<<<<< HEAD
+    }
+
+    public function testGetItens()
+    {
+=======
         $id = $this->tester->grabRecord('backend\models\Prato', ['descricao' => 'Chouriça']);
-       $prato = Prato::findOne($id);
+        $prato = Prato::findOne($id);
         $prato->descricao = 'Alheira';
-       $prato->update();
+        $prato->update();
 
        $this->tester->seeRecord('backend\models\Prato', ['descricao' => 'Chouriça']);
     }
 
     function testDelete(){
 
+        //$id = $this->tester->grabRecord('backend\models\Prato', ['descricao' => 'Alheira']);
+        //Menu::deleteAll(['id_prato' => 1]);
 
         Menu::deleteAll();
         Prato::deleteAll(['descricao' => 'Alheira']);
         $conta = Prato::find()->where(['descricao' => 'Alheira'])->Count();
         $this->assertEquals(0, $conta);
+>>>>>>> Rafaela
 
     }
+
 }

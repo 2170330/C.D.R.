@@ -1,0 +1,19 @@
+suite_namespace: frontend\tests\acceptance
+actor: AcceptanceTester
+env:
+chorme:
+modules:
+    enabled:
+        - WebDriver:
+            url: http://localhost/CDR/C.D.R/advanced/frontend/web/
+            browser: chrome
+        - Yii2:
+            part: [orm, fixtures]
+            entryScript: index.php
+            cleanup: false
+extensions:
+        enabled:
+        - Codeception\Extension\RunProcess:
+                0: java -jar selenium-server-standalone-3.141.59.jar
+                1: chormedriver.exe
+                sleep: 5

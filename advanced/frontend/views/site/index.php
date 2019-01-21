@@ -40,14 +40,11 @@ $this->title = 'C.D.R';
         <div class="btn-reservar-datepicker col-spaced col-lg-4">
             <?= $form->field($model, 'data')->widget(DateTimePicker::className(),
                 [
-                    'name' => 'datetime_10',
-                    'id' => 'datetime_10',
                     'options' => ['placeholder' => 'Seleciona a hora de reserva ...', 'class' => 'datepickerCSS'],
-                    'convertFormat' => true,
                     'pluginOptions' => [
-                        'format' => 'yyyy-dd-mm HH:MM:ss',
+                        'format' => 'yyyy-mm-dd hh:ii',
                         'todayHighlight' => true,
-                        'minDate' => '-1969/12/31',
+
                     ]
                 ])->label(false);
             ?>

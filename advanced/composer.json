@@ -21,7 +21,8 @@
         "bizley/migration": "~2.3.0",
         "rmrevin/yii2-fontawesome": "2.10.*",
       "ext-json": "*",
-        "yii2mod/yii2-cart": "*"
+        "yii2mod/yii2-cart": "*",
+        "swiftmailer/swiftmailer": "^5.4"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
@@ -30,8 +31,7 @@
         "codeception/base": "^2.2.3",
         "codeception/verify": "~0.3.1",
         "kartik-v/yii2-widget-datetimepicker": "*",
-        "codeception/codeception": "^2.5",
-        "yiisoft/yii2-codeception": "^2.0"
+        "codeception/codeception": "^2.5"
     },
     "config": {
         "process-timeout": 1800,

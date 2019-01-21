@@ -1,22 +1,43 @@
-<?php namespace backend\tests\functional;
-use backend\tests\FunctionalTester;
+<?php
 
+namespace backend\tests\functional;
+
+use backend\tests\FunctionalTester;
+use common\fixtures\UserFixture;
+
+/**
+ * Class LoginCest
+ */
 class LoginCest
 {
-    public function _before(FunctionalTester $I)
+    /**
+     * Load fixtures before db transaction begin
+     * Called in _before()
+     * @see \Codeception\Module\Yii2::_before()
+     * @see \Codeception\Module\Yii2::loadFixtures()
+     * @return array
+     */
+    public function _fixtures()
     {
+        return [
+            'user' => [
+                'class' => UserFixture::className(),
+                'dataFile' => codecept_data_dir() . 'login_data.php'
+            ]
+        ];
     }
-
-    // tests
-    public function tryToTest(FunctionalTester $I)
+    
+    /**
+     * @param FunctionalTester $I
+     */
+    public function loginUser(FunctionalTester $I)
     {
-        $I->amOnPage(\Yii::$app->homeUrl);
-        $I->amOnRoute('site/login');
-        $I->fillField('Username', 'TesteAdmin');
-        $I->fillField('Password', 'teste123');
-        $I->click('Login', '.login-button');
+        $I->amOnPage('/site/login');
+        $I->fillField('Username', 'erau');
+        $I->fillField('Password', 'password_0');
+        $I->click('login-button');
 
-        $I->see('Logout (TesteAdmin)', 'form button[type=submit]');
+        $I->see('Logout (erau)', 'form button[type=submit]');
         $I->dontSeeLink('Login');
         $I->dontSeeLink('Signup');
     }
