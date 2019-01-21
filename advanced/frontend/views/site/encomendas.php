@@ -84,7 +84,7 @@ $sobremesas = Sobremesa::find()->all();
 
 
     <div class="site-menu-2 clearfix col-lg-9">
-        <p id="carne" class="titulo-menu"> Carne </p>
+        <p id="carne" class="titulo-menu"> Carneeeeee </p>
         <p class="line"> _____</p>
         <?php
         $count = 1;
