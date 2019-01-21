@@ -17,6 +17,12 @@ class HomeCest
 
         $I->see('Iniciar sessão');
 
-        
+        $I->fillField('Username', 123);
+        $I->wait(2);
+        $I->fillField('Password', 123456);
+        $I->wait(2);
+        $I->click('Login');
+        $I->wait(5);
+
     }
 }
