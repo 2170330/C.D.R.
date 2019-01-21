@@ -11,7 +11,7 @@ $this->title = 'Request password reset';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-request-password-reset">
-    <h1 class="request-password-titulo"> Repôr Password</h1>
+    <h1 class="request-password-titulo"> Repor Password</h1>
     <p class="line"> _____</p>
 
     <p class="request-password-descricao">Por favor, preenche a caixa com o seu email. Um link para resetar a password irá ser enviado para aqui. </p>
