@@ -82,6 +82,7 @@
 =======
       <path value="$PROJECT_DIR$/advanced/vendor/symfony/console" />
       <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-codeception" />
+<<<<<<< HEAD
       <path value="$PROJECT_DIR$/advanced/vendor/phar-io/version" />
       <path value="$PROJECT_DIR$/advanced/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/advanced/vendor/egulias/email-validator" />
@@ -91,7 +92,14 @@
       <path value="$PROJECT_DIR$/advanced/vendor/symfony/contracts" />
 >>>>>>> master
       <path value="$PROJECT_DIR$/advanced/vendor/yii2mod/yii2-cart" />
+=======
+>>>>>>> Rafaela
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="5.4.0" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="$PROJECT_DIR$/advanced/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
 </project>

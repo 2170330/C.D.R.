@@ -30,10 +30,7 @@ $this->title = 'Reservas';
                 'id',
                 'nPessoas',
                 'data',
-                [
-                    'label' => 'Utilizador',
-                    'attribute' => 'user.username',
-                ],
+                'id_user',
 
                 ['class' => 'yii\grid\ActionColumn'],
             ],

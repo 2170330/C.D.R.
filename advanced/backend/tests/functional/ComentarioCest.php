@@ -7,14 +7,15 @@ class ComentarioCest
     {
         $I->amOnPage(\Yii::$app->homeUrl);
         $I->amOnRoute('site/login');
-        $I->fillField('Username', 'TesteAdmin');
-        $I->fillField('Password', 'teste123');
+        $I->fillField('Username', 'Carlitos');
+        $I->fillField('Password', 'asda123');
         $I->click('Login', '.login-button');
         $I->amOnRoute('mensagem/create');
     }
 
-    public function tryCreateComment(FunctionalTester $I)
+    public function tryCreateComent(FunctionalTester $I)
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         $I->selectOption('Avaliacao', 4);
         $I->fillField('Mensagem', 'Gostei muito. Obrigado');
@@ -37,10 +38,14 @@ class ComentarioCest
         $I->see("Gostei muito");
         $I->see("Teste");
 >>>>>>> master
+=======
+
+>>>>>>> Rafaela
     }
 
-    public function tryEmptyComment(FunctionalTester $I)
+    public function tryEmptyComent(FunctionalTester $I)
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         $I->seeInTitle('Criar Mensagem');
         $I->seeInField('Avaliacao',null);
@@ -53,5 +58,8 @@ class ComentarioCest
         $I->seeInField("Mensagem", null);
         $I->seeInField("Utilizador", null);
 >>>>>>> master
+=======
+
+>>>>>>> Rafaela
     }
 }

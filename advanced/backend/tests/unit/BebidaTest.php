@@ -24,7 +24,7 @@ class BebidaTest extends \Codeception\Test\Unit
     {
 
     }
-  /*  public  function testInvalidat(){
+    public  function testInvalidat(){
         $bebida = new Bebida();
 
         $bebida->descricao = null;
@@ -75,22 +75,22 @@ class BebidaTest extends \Codeception\Test\Unit
 
         $this->tester->seeInDatabase('bebida',['descricao' => 'Ice-tea' , 'preco' =>'1.3', 'imagem' => 'Ice-tea.png', 'id_tipo_bebida' => '1']);
 
-    }*/
+    }
 
     public function testUpdate(){
-        $id = $this->tester->grabRecord('backend\models\Bebida', ['descricao' => 'cocacola']);
-        $bebida = Bebida::findOne($id);
+        //$id = $this->tester->grabRecord('backend\models\Bebida', ['descricao' => 'cocacola']);
+        $bebida = Bebida::findOne(['descricao' => 'cocacola']);
         $bebida->descricao = 'Sumol';
         $bebida->update();
 
         $this->tester->seeRecord('backend\models\Bebida', ['descricao' => 'cocacola']);
     }
 
-   /* function testDelete(){
+    function testDelete(){
         Menu::deleteAll();
         Bebida::deleteAll(['descricao' => 'Sumol']);
         $conta = Bebida::find()->where(['descricao' => 'Ice-tea'])->Count();
         $this->assertEquals(0, $conta);
 
-    }*/
+    }
 }

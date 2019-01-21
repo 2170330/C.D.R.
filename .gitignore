@@ -6,3 +6,17 @@ advanced/backend/tests/functional/SobremesaCest.php
 advanced/backend/tests/functional/SobremesaCest.php
 advanced/backend/tests/functional/ComentarioCest.php
 .idea/php.xml
+.idea/php.xml
+advanced/backend/tests/functional/ComentarioCest.php
+advanced/backend/tests/functional/BebidaCest.php
+advanced/backend/tests/_data/vinho-tinto-cocktail.png
+advanced/backend/tests/functional/SobremesaCest.php
+advanced/backend/tests/unit/PratoTest.php
+advanced/backend/models/Encomenda.php
+.idea/php.xml
+advanced/backend/models/Encomenda.php
+advanced/backend/tests/_data/vinho-tinto-cocktail.png
+advanced/backend/tests/functional/BebidaCest.php
+advanced/backend/tests/functional/ComentarioCest.php
+advanced/backend/tests/functional/SobremesaCest.php
+advanced/backend/tests/unit/PratoTest.php

@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model backend\models\Reserva */
 
-$this->title = 'Criar Reserva';
+$this->title = 'Create Reserva';
 ?>
 <?= $this->render('@backend/views/layouts/submenu.php'); ?>
 
