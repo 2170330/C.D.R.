@@ -7,8 +7,8 @@ class ReservaCest
     {
         $I->amOnPage(\Yii::$app->homeUrl);
         $I->amOnRoute('site/login');
-        $I->fillField('Username', 'Carlitos');
-        $I->fillField('Password', 'asda123');
+        $I->fillField('Username', 'TesteAdmin');
+        $I->fillField('Password', 'teste123');
         $I->click('Login', '.login-button');
         $I->amOnRoute('reserva/create');
     }
@@ -16,21 +16,22 @@ class ReservaCest
     // tests
     public function tryToReserva(FunctionalTester $I)
     {
-        $I->fillField('Descricao', 'Gelado de morango');
-        $I->fillField('Preco', 2.45);
-        $I->attachFile('Imagem', 'gelado-de-morango.png');
+        $I->selectOption("Número de pessoas", 3); // Numero de pessoas -> 3 pessoas
+        $I->fillField('Data', "2019-04-10 18:01:01");
+        $I->selectOption("Utilizador", 62); // Utilizador -> Teste, option 62 = id do utilizador
         $I->click('Criar');
 
-        $I->see('Gelado de morango', 'td');
-        $I->see(2.45, 'td');
-        $I->see('gelado-de-morango.png', 'td');
+        $I->see(3, 'td');
+        $I->see('2019-04-10 18:01:01', 'td');
+        $I->see('Teste', 'td');
     }
 
     public function tryEmptyReserva(FunctionalTester $I)
     {
-        $I->seeInTitle('Criar Sobremesa');
-        $I->seeInField('Descricao', null);
-        $I->seeInField('Preco', null);
+        $I->seeInTitle('Criar Reserva');
+        $I->seeInField('Número de pessoas', null);
+        $I->seeInField('Data', null);
+        $I->seeInField('Utilizador', null);
 
     }
 }

@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model backend\models\Menu */
 
-$this->title = 'Create Menu';
+$this->title = 'Criar Menu';
 
 ?>
 
