@@ -62,7 +62,7 @@ class ComentarioTest extends \Codeception\Test\Unit
        $this->assertEquals('na gostei',$comentario->mensagem);
        $this->assertEquals(1,$comentario->id_user);
 
-       $this->tester->seeInDatabase('$comentario',['avaliacao' => '1' , 'mensagem' =>'na gostei', 'id_user' => '1']);
+       $this->tester->seeInDatabase('comentario',['avaliacao' => '1' , 'mensagem' =>'na gostei', 'id_user' => '1']);
 
    }
 
