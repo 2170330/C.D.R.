@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="631e5bff-cb72-40f1-bfb0-f8e07a1d00c4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/controllers/MensagemController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/models/Mensagem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/models/MensagemSearch.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/backend/views/layouts/submenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/layouts/submenu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/controllers/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/site/comentarios.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/site/comentarios.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/frontend/views/site/encomendas.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/site/encomendas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/frontend/web/css/encomendas.css" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/web/css/encomendas.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,20 +42,20 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="26" />
+          <entry key="css" value="28" />
           <entry key="gitignore" value="1" />
-          <entry key="js" value="1" />
+          <entry key="js" value="4" />
           <entry key="json" value="1" />
-          <entry key="php" value="110" />
+          <entry key="php" value="120" />
           <entry key="rnc" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="26" />
+          <entry key="CSS" value="28" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="110" />
+          <entry key="JavaScript" value="4" />
+          <entry key="PHP" value="120" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="RNG Compact" value="1" />
         </counts>
@@ -54,49 +63,95 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="110" />
-          <entry key="php" value="2261" />
+          <entry key="php" value="2292" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="110" />
-          <entry key="PHP" value="2261" />
+          <entry key="PHP" value="2292" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced/backend/tests/functional/ComentarioCest.php">
+        <entry file="file://$PROJECT_DIR$/advanced/frontend/views/layouts/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="374">
+              <caret line="42" column="62" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced/backend/models/Utilizador.php">
+        <entry file="file://$PROJECT_DIR$/advanced/frontend/controllers/ComentarioController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+            <state relative-caret-position="-357" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced/frontend/controllers/SiteController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="157" selection-start-line="157" selection-end-line="157" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced/backend/modules/api/controllers/UtilizadorController.php">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/advanced/frontend/views/site/comentarios.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/advanced/frontend/views/site/encomendas.php">
+        <entry file="file://$PROJECT_DIR$/advanced/frontend/web/js/comentarios.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced/frontend/tests/functional/HomeCest.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced/frontend/web/css/encomendas.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced/backend/views/layouts/submenu.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="32" column="106" selection-start-line="32" selection-start-column="106" selection-end-line="32" selection-end-column="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced/frontend/views/site/encomendas.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-49">
+              <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced/backend/views/comentario/index.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -112,8 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/advanced/frontend/controllers/SiteController.php" />
-        <option value="$PROJECT_DIR$/advanced/backend/views/layouts/submenu.php" />
         <option value="$PROJECT_DIR$/advanced/backend/web/css/navbar.css" />
         <option value="$PROJECT_DIR$/advanced/frontend/web/css/navbar.css" />
         <option value="$PROJECT_DIR$/advanced/frontend/web/css/menu.css" />
@@ -130,7 +183,6 @@
         <option value="$PROJECT_DIR$/advanced/vendor/devanych/yii2-cart/Cart.php" />
         <option value="$PROJECT_DIR$/advanced/vendor/yii2mod/yii2-cart/widgets/views/cart.php" />
         <option value="$PROJECT_DIR$/advanced/backend/views/sobremesa/_form.php" />
-        <option value="$PROJECT_DIR$/advanced/frontend/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/advanced/backend/views/sobremesa/create.php" />
         <option value="$PROJECT_DIR$/advanced/backend/views/sobremesa/index.php" />
         <option value="$PROJECT_DIR$/advanced/backend/views/sobremesa/update.php" />
@@ -146,6 +198,10 @@
         <option value="$PROJECT_DIR$/advanced/backend/tests/functional/SobremesaCest.php" />
         <option value="$PROJECT_DIR$/advanced/backend/tests/functional/ComentarioCest.php" />
         <option value="$PROJECT_DIR$/advanced/frontend/views/site/encomendas.php" />
+        <option value="$PROJECT_DIR$/advanced/backend/views/layouts/submenu.php" />
+        <option value="$PROJECT_DIR$/advanced/frontend/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/advanced/frontend/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/advanced/frontend/views/site/comentarios.php" />
       </list>
     </option>
   </component>
@@ -157,97 +213,99 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
-      <path value="$PROJECT_DIR$/advanced/vendor/ezyang/htmlpurifier" />
-      <path value="$PROJECT_DIR$/advanced/vendor/symfony/polyfill-ctype" />
-      <path value="$PROJECT_DIR$/advanced/vendor/symfony/event-dispatcher" />
-      <path value="$PROJECT_DIR$/advanced/vendor/symfony/css-selector" />
-      <path value="$PROJECT_DIR$/advanced/vendor/symfony/console" />
-      <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-swiftmailer" />
-      <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-gii" />
-      <path value="$PROJECT_DIR$/advanced/vendor/guzzlehttp/psr7" />
-      <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-debug" />
-      <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-composer" />
-      <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-faker" />
-      <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-bootstrap" />
-      <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2" />
-      <path value="$PROJECT_DIR$/advanced/vendor/phar-io/version" />
-      <path value="$PROJECT_DIR$/advanced/vendor/phar-io/manifest" />
-      <path value="$PROJECT_DIR$/advanced/vendor/egulias/email-validator" />
-      <path value="$PROJECT_DIR$/advanced/vendor/behat/gherkin" />
-      <path value="$PROJECT_DIR$/advanced/vendor/swiftmailer/swiftmailer" />
       <path value="$PROJECT_DIR$/advanced/vendor/rmrevin/yii2-fontawesome" />
-      <path value="$PROJECT_DIR$/advanced/vendor/theseer/tokenizer" />
-      <path value="$PROJECT_DIR$/advanced/vendor/phpdocumentor/reflection-docblock" />
-      <path value="$PROJECT_DIR$/advanced/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/advanced/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/advanced/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/advanced/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/advanced/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/advanced/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/advanced/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/advanced/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/advanced/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/advanced/vendor/phpspec/php-diff" />
+      <path value="$PROJECT_DIR$/advanced/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/advanced/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/advanced/vendor/bizley/migration" />
+      <path value="$PROJECT_DIR$/advanced/vendor/behat/gherkin" />
+      <path value="$PROJECT_DIR$/advanced/vendor/cebe/markdown" />
+      <path value="$PROJECT_DIR$/advanced/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/advanced/vendor/psr/http-message" />
       <path value="$PROJECT_DIR$/advanced/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/advanced/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/advanced/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/advanced/vendor/swiftmailer/swiftmailer" />
       <path value="$PROJECT_DIR$/advanced/vendor/codeception/base" />
+      <path value="$PROJECT_DIR$/advanced/vendor/codeception/codeception" />
       <path value="$PROJECT_DIR$/advanced/vendor/codeception/verify" />
       <path value="$PROJECT_DIR$/advanced/vendor/codeception/stub" />
       <path value="$PROJECT_DIR$/advanced/vendor/codeception/phpunit-wrapper" />
-      <path value="$PROJECT_DIR$/advanced/vendor/myclabs/deep-copy" />
-      <path value="$PROJECT_DIR$/advanced/vendor/fzaninotto/faker" />
-      <path value="$PROJECT_DIR$/advanced/vendor/cebe/markdown" />
-      <path value="$PROJECT_DIR$/advanced/vendor/kartik-v/yii2-krajee-base" />
-      <path value="$PROJECT_DIR$/advanced/vendor/kartik-v/yii2-widget-datetimepicker" />
-      <path value="$PROJECT_DIR$/advanced/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/advanced/vendor/bower-asset/inputmask" />
-      <path value="$PROJECT_DIR$/advanced/vendor/phpunit/phpunit" />
       <path value="$PROJECT_DIR$/advanced/vendor/bower-asset/jquery" />
-      <path value="$PROJECT_DIR$/advanced/vendor/phpunit/php-code-coverage" />
       <path value="$PROJECT_DIR$/advanced/vendor/bower-asset/fontawesome" />
-      <path value="$PROJECT_DIR$/advanced/vendor/phpunit/php-token-stream" />
       <path value="$PROJECT_DIR$/advanced/vendor/bower-asset/bootstrap" />
-      <path value="$PROJECT_DIR$/advanced/vendor/phpunit/php-text-template" />
       <path value="$PROJECT_DIR$/advanced/vendor/bower-asset/yii2-pjax" />
-      <path value="$PROJECT_DIR$/advanced/vendor/phpunit/php-timer" />
       <path value="$PROJECT_DIR$/advanced/vendor/bower-asset/punycode" />
-      <path value="$PROJECT_DIR$/advanced/vendor/psr/http-message" />
-      <path value="$PROJECT_DIR$/advanced/vendor/bizley/migration" />
-      <path value="$PROJECT_DIR$/advanced/vendor/phpunit/php-file-iterator" />
       <path value="$PROJECT_DIR$/advanced/vendor/bower-asset/typeahead.js" />
+      <path value="$PROJECT_DIR$/advanced/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/advanced/vendor/composer" />
+      <path value="$PROJECT_DIR$/advanced/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/advanced/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/advanced/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/advanced/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/advanced/vendor/sebastian/version" />
       <path value="$PROJECT_DIR$/advanced/vendor/sebastian/diff" />
       <path value="$PROJECT_DIR$/advanced/vendor/sebastian/code-unit-reverse-lookup" />
       <path value="$PROJECT_DIR$/advanced/vendor/sebastian/resource-operations" />
-      <path value="$PROJECT_DIR$/advanced/vendor/phpspec/prophecy" />
-      <path value="$PROJECT_DIR$/advanced/vendor/sebastian/object-reflector" />
-      <path value="$PROJECT_DIR$/advanced/vendor/phpspec/php-diff" />
       <path value="$PROJECT_DIR$/advanced/vendor/sebastian/object-enumerator" />
       <path value="$PROJECT_DIR$/advanced/vendor/sebastian/recursion-context" />
       <path value="$PROJECT_DIR$/advanced/vendor/sebastian/exporter" />
       <path value="$PROJECT_DIR$/advanced/vendor/sebastian/environment" />
       <path value="$PROJECT_DIR$/advanced/vendor/sebastian/comparator" />
-      <path value="$PROJECT_DIR$/advanced/vendor/doctrine/lexer" />
       <path value="$PROJECT_DIR$/advanced/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/advanced/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/advanced/vendor/kartik-v/yii2-krajee-base" />
+      <path value="$PROJECT_DIR$/advanced/vendor/kartik-v/yii2-widget-datetimepicker" />
+      <path value="$PROJECT_DIR$/advanced/vendor/facebook/webdriver" />
       <path value="$PROJECT_DIR$/advanced/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-swiftmailer" />
+      <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-gii" />
+      <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-debug" />
+      <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-composer" />
+      <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-faker" />
+      <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-bootstrap" />
+      <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2" />
       <path value="$PROJECT_DIR$/advanced/vendor/symfony/yaml" />
-      <path value="$PROJECT_DIR$/advanced/vendor/composer" />
       <path value="$PROJECT_DIR$/advanced/vendor/symfony/finder" />
       <path value="$PROJECT_DIR$/advanced/vendor/symfony/dom-crawler" />
-      <path value="$PROJECT_DIR$/advanced/vendor/ralouphie/getallheaders" />
-      <path value="$PROJECT_DIR$/advanced/vendor/symfony/contracts" />
       <path value="$PROJECT_DIR$/advanced/vendor/symfony/browser-kit" />
       <path value="$PROJECT_DIR$/advanced/vendor/symfony/polyfill-mbstring" />
-      <path value="$PROJECT_DIR$/advanced/vendor/guzzlehttp/guzzle" />
-      <path value="$PROJECT_DIR$/advanced/vendor/guzzlehttp/promises" />
-      <path value="$PROJECT_DIR$/advanced/vendor/facebook/webdriver" />
+      <path value="$PROJECT_DIR$/advanced/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/advanced/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/advanced/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/advanced/vendor/symfony/css-selector" />
       <path value="$PROJECT_DIR$/advanced/vendor/symfony/process" />
-      <path value="$PROJECT_DIR$/advanced/vendor/codeception/codeception" />
+      <path value="$PROJECT_DIR$/advanced/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/advanced/vendor/yiisoft/yii2-codeception" />
+      <path value="$PROJECT_DIR$/advanced/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/advanced/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/advanced/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/advanced/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/advanced/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/advanced/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/advanced/vendor/symfony/contracts" />
       <path value="$PROJECT_DIR$/advanced/vendor/yii2mod/yii2-cart" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-85" />
-    <option name="y" value="15" />
-    <option name="width" value="1750" />
-    <option name="height" value="970" />
+    <option name="x" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,30 +329,14 @@
               <item name="C.D.R" type="462c0819:PsiDirectoryNode" />
               <item name="advanced" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="C.D.R" type="b2602c69:ProjectViewProjectNode" />
               <item name="C.D.R" type="462c0819:PsiDirectoryNode" />
               <item name="advanced" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C.D.R" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C.D.R" type="462c0819:PsiDirectoryNode" />
-              <item name="advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C.D.R" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C.D.R" type="462c0819:PsiDirectoryNode" />
-              <item name="advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="functional" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="C.D.R" type="b2602c69:ProjectViewProjectNode" />
@@ -307,7 +349,30 @@
               <item name="C.D.R" type="b2602c69:ProjectViewProjectNode" />
               <item name="C.D.R" type="462c0819:PsiDirectoryNode" />
               <item name="advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="comentario" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C.D.R" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C.D.R" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C.D.R" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C.D.R" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C.D.R" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C.D.R" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="C.D.R" type="b2602c69:ProjectViewProjectNode" />
@@ -324,10 +389,34 @@
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="site" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="C.D.R" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C.D.R" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C.D.R" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C.D.R" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C.D.R" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C.D.R" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -338,6 +427,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\C.D.R\advanced\frontend\views\site" />
       <recent name="D:\wamp64\www\C.D.R\advanced\frontend\web\css" />
       <recent name="D:\wamp64\www\C.D.R\advanced\frontend\views\layouts" />
     </key>
@@ -380,13 +470,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37414000" />
+    <option name="totallyTimeSpent" value="38169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26174498" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -414,60 +504,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/advanced/backend/modules/api/Module.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/backend/mosquitto/phpMQTT.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/backend/models/Prato.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="166" column="44" selection-start-line="166" selection-start-column="44" selection-end-line="166" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/frontend/config/main-local.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/frontend/assets/AppAsset.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/frontend/config/params-local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/backend/config/params-local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/backend/views/layouts/submenu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/frontend/views/layouts/submenu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="87" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/vendor/devanych/yii2-cart/calculators/SimpleCalculator.php" />
     <entry file="file://$PROJECT_DIR$/advanced/vendor/devanych/yii2-cart/CartItem.php" />
     <entry file="file://$PROJECT_DIR$/advanced/vendor/devanych/yii2-cart/Cart.php" />
     <entry file="file://$PROJECT_DIR$/advanced/vendor/devanych/yii2-cart/composer.json" />
@@ -528,13 +564,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/advanced/backend/views/mensagem/index.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/frontend/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/advanced/backend/views/sobremesa/create.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -678,10 +707,69 @@
     <entry file="file://$PROJECT_DIR$/advanced/backend/modules/api/controllers/UtilizadorController.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/tests/functional/HomeCest.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/views/comentario/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/web/css/encomendas.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/backend/views/layouts/submenu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="32" column="106" selection-start-line="32" selection-start-column="106" selection-end-line="32" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/advanced/frontend/views/site/encomendas.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        <state relative-caret-position="-49">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="42" column="62" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/controllers/ComentarioController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Escola/web/save/advanced/frontend/views/site/comentarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/web/js/site.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/views/site/comentarios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/frontend/web/js/comentarios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

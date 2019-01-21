@@ -2,6 +2,7 @@
 namespace frontend\controllers;
 
 use common\models\User;
+use frontend\models\Comentario;
 use frontend\models\ComentarioForm;
 use frontend\models\MensagemForm;
 use frontend\models\Reserva;
@@ -151,8 +152,8 @@ class SiteController extends Controller
         }
     }
 
-    public function actionMensagem(){
-        $model = new MensagemForm();
+    public function actionComentario(){
+        $model = new Comentario();
         $user = Yii::$app->user->getId();
 
 
