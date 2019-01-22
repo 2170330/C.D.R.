@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="631e5bff-cb72-40f1-bfb0-f8e07a1d00c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/advanced/frontend/views/site/mensagem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/frontend/web/css/mensagem.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/layouts/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/layouts/submenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/layouts/submenu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/mensagem/_form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/mensagem/_search.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/mensagem/create.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/mensagem/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/mensagem/update.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/mensagem/view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/backend/views/reserva/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/backend/views/reserva/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/assets/AppAsset.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/assets/AppAsset.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/controllers/MensagemFormController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/controllers/SiteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/models/MensagemForm.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/layouts/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/site/contact.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/site/encomendas.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/site/encomendas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/site/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/views/site/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/views/site/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/frontend/web/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/frontend/web/css/site.css" afterDir="false" />
-    </list>
+    <list default="true" id="631e5bff-cb72-40f1-bfb0-f8e07a1d00c4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/advanced/frontend/tests/acceptance/HomeCest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -271,7 +248,7 @@
       <path value="$PROJECT_DIR$/advanced/vendor/yii2mod/yii2-cart" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
@@ -425,15 +402,15 @@
       <workItem from="1547488012389" duration="276000" />
       <workItem from="1548095884315" duration="5772000" />
       <workItem from="1548105828495" duration="3733000" />
-      <workItem from="1548154548695" duration="7630000" />
+      <workItem from="1548154548695" duration="7894000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55919000" />
+    <option name="totallyTimeSpent" value="56183000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2590604" />
@@ -791,7 +768,7 @@
     <entry file="file://$PROJECT_DIR$/advanced/frontend/tests/acceptance/HomeCest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
