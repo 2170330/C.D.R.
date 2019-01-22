@@ -7,17 +7,16 @@ use yii\grid\GridView;
 /* @var $searchModel backend\models\MensagemSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Contactos';
+$this->title = 'Mensagens';
 ?>
 <?= $this->render('@backend/views/layouts/submenu.php'); ?>
-
 <div class="mensagem-index, backend-form">
 
     <h1 class="backend-titulo"><?= Html::encode($this->title) ?></h1>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a('Criar Contacto', ['create'], ['class' => 'backend-button']) ?>
+        <?= Html::a('Criara Mensagem', ['create'], ['class' => 'backend-button']) ?>
     </p>
 
     <div class="backend-cores">
@@ -28,10 +27,16 @@ $this->title = 'Contactos';
                 ['class' => 'yii\grid\SerialColumn'],
 
                 'id',
-                'nome',
-                'email:email',
-                'assunto',
+                'avaliacao',
                 'mensagem',
+                'assunto',
+                //'created_at',
+                //'updated_at',
+                [
+                    'header' => 'Utilizador',
+                    'attribute' => 'user.username',
+
+                ],
 
                 ['class' => 'yii\grid\ActionColumn'],
             ],

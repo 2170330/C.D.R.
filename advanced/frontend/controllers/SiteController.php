@@ -4,7 +4,6 @@ namespace frontend\controllers;
 use common\models\User;
 use frontend\models\Comentario;
 use frontend\models\ComentarioForm;
-use frontend\models\Mensagem;
 use frontend\models\MensagemForm;
 use frontend\models\Reserva;
 use Yii;
@@ -85,8 +84,7 @@ class SiteController extends Controller
         if ($model->load(Yii::$app->request->post())) {
             if ($user == $model->id_user) {
                 if($model->save())
-
-                return $this->redirect(['mensagem']);
+                    return $this->redirect(['index', 'id' => $model->id]);
             }
         }
 
@@ -135,18 +133,23 @@ class SiteController extends Controller
      *
      * @return mixed
      */
-    public function actionContactos()
+    public function actionContact()
     {
-        $model = new Mensagem();
+        $model = new ContactForm();
 
-        if ($model->load(Yii::$app->request->post())) {
-            if($model->save())
-                return $this->redirect(['mensagem', 'id' => $model->id]);
+        if ($model->load(Yii::$app->request->post()) && $model->validate()) {
+            if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
+                Yii::$app->session->setFlash('success', 'Thank you for contacting us. We will respond to you as soon as possible.');
+            } else {
+                Yii::$app->session->setFlash('error', 'There was an error sending your message.');
+            }
+
+            return $this->refresh();
+        } else {
+            return $this->render('contact', [
+                'model' => $model,
+            ]);
         }
-
-        return $this->render('contactos', [
-            'model' => $model,
-        ]);
     }
 
     public function actionComentario(){
@@ -157,7 +160,7 @@ class SiteController extends Controller
         if ($model->load(Yii::$app->request->post())) {
             if ($user == $model->id_user) {
                 if($model->save())
-                return $this->redirect(['mensagem', 'id' => $model->id]);
+                return $this->redirect(['index', 'id' => $model->id]);
             }
         }
 
@@ -176,11 +179,6 @@ class SiteController extends Controller
         return $this->render('about');
     }
 
-    public function actionMensagem()
-    {
-        return $this->render('mensagem');
-    }
-
     public function actionReserva()
     {
         $model = new Reserva();
@@ -190,7 +188,7 @@ class SiteController extends Controller
         if ($model->load(Yii::$app->request->post())) {
             if ($user == $model->id_user) {
                 if($model->save())
-                    return $this->redirect(['index']);
+                    return $this->redirect(['index', 'id' => $model->id]);
             }
         }
 
@@ -247,7 +245,11 @@ class SiteController extends Controller
 
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
             if ($model->sendEmail()) {
+                Yii::$app->session->setFlash('success', 'Verifique o seu email para futuras instruções.');
+
                 return $this->goHome();
+            } else {
+                Yii::$app->session->setFlash('error', ' Não é possível resetar a password por causa do email colocado.');
             }
         }
 

@@ -17,7 +17,7 @@ $this->title = 'C.D.R';
 
 <div class="inicio">
     <div class="informacao">
-        <p> Bernardingo de Campos, 12 - Leiria, &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; Aberto de (12:00 às 15:00) e das (19:00 às 22:00) </p>
+        <p> Bernardino de Campos, 98 - São Paulo, SP 12345-678 &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; Aberto de 12:00 às 3:00 e das 19:00 às 22:00 </p>
     </div>
 
     <br><br><br><br><br><br><br><br><br>
@@ -52,19 +52,19 @@ $this->title = 'C.D.R';
 
         <div class=" col-spaced col-lg-4">
             <?= $form->field($model, 'nPessoas')->dropDownList(
-                array('1' => '1 pessoa',
+                array(['1' => '1 pessoa',
                        '2' => '2 pessoas',
                        '3' => '3 pessoas',
                        '4' => '4 pessoas',
                        '5' => '5 pessoas',
-                       '6' => '6 pessoas'), ['class' => 'btn-reservar-npessoas'])->label(false) ?>
+                       '6' => '6 pessoas']), ['class' => 'btn-reservar-npessoas'])->label(false) ?>
         </div>
 
         <?php $model->id_user = Yii::$app->user->getId(); ?>
         <?= $form->field($model, 'id_user')->hiddenInput(['value' => $model->id_user])->label(false) ?>
 
         <div class="col-spaced col-lg-4">
-            <?= Html::submitButton('Reservar', ['class' => 'btn-reservar']) ?>
+            <?= Html::submitButton('Comentar', ['class' => 'btn-reservar']) ?>
         </div>
 
         <?php ActiveForm::end(); ?>
@@ -80,8 +80,8 @@ $this->title = 'C.D.R';
     <h1 class="titulo-1"> OS NOSSOS MENUS</h1> <br>
 
 
-    <p class="paragrafo-1"> Todos os menus aqui são elaborados com o objetivo de agradar todos os nossos clientes, diversificando todas as nossas ementas e costumizar o seu prato à sua escolha. </p>
-    <?= Html::a('Veja o nosso Menu!', ['/site/menu'], ['class'=>'btn-ver-menu ']) ?>
+    <p class="paragrafo-1"> Todos os menus aqui são elaborados coma precisão de agradar todos os clientes, diversificando todas as nossas ementas e costumizar o seu prato à sua escolha. </p>
+    <a class="btn-ver-menu" href="http://www.yiiframework.com">Veja o nosso menu!</a>
 
     <br><br><br><br><br><br><br><br><br><br>
 </div>

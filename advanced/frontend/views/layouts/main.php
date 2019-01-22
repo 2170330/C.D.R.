@@ -27,7 +27,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/png', 'href' => '../we
 <body>
 <?php $this->beginBody() ?>
 
-<div class="wrap">
+<div class="wrap ">
     <?php
     NavBar::begin([
         'brandLabel' => Yii::$app->name,
@@ -41,14 +41,17 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/png', 'href' => '../we
         ['label' => 'MENU', 'url' => ['/site/menu']],
         ['label' => 'ENCOMENDAS', 'url' => ['/site/encomendas']],
         ['label' => 'COMENTARIOS', 'url' => ['/site/comentario']],
-        ['label' => 'CONTACTO', 'url' => ['/site/contactos']],
+        ['label' => 'CONTATO', 'url' => ['/site/contact']],
         '<i class="fa fa-facebook header-icon header-facebook"></i>',
         '<i class="fa fa-twitter header-icon header-twitter" ></i>',
         '<i class="fa fa-whatsapp header-icon header-whatsapp"></i>',
         '<i class="fa fa-instagram header-icon header-instagram"></i>',
     ];
     if (Yii::$app->user->isGuest) {
-        $menuItems[] = ['label'=> 'LOGIN', 'url' => ['/site/login']];
+        $menuItems[] = [
+                'label'=> 'LOGIN', 'url' => ['/site/login'],
+                'options' => ['class' => 'navbar-nav navbar-left'],
+        ];
     } else {
         $menuItems[] = '<li>'
             . Html::beginForm(['/site/logout'], 'post')
@@ -76,7 +79,6 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/png', 'href' => '../we
 </div>
 
 <footer class="footer row">
-
    <div class="footer-site-1 col-lg-6">
         <p class="footer-titulo"> C.R.D </p>
         <p class="footer-descricao">TUDO E MAIS ALGUMA COISA</p>

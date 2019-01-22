@@ -26,16 +26,19 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/png', 'href' => '../we
 </head>
 <body>
 <?php $this->beginBody() ?>
+    <div class="wrap">
 
-<div class="wrap">
     <?php
     NavBar::begin([
         'brandLabel' => Yii::$app->name,
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
-            'class' => 'navbar-inverse navbar-fixed-top header-border',
+            'class' => 'navbar-inverse navbar-fixed-top header-border   ',
         ],
     ]);
+    ?>
+
+    <?php
     $menuItems = [
         ['label' => 'HOME', 'url' => ['site/index']],
     ];
