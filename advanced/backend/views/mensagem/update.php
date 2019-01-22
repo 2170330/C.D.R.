@@ -5,10 +5,9 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model backend\models\Mensagem */
 
-$this->title = 'Update Mensagem: ' . $model->id;
+$this->title = 'Update Contacto: ' . $model->id;
 
 ?>
-
 <?= $this->render('@backend/views/layouts/submenu.php'); ?>
 
 <div class="mensagem-update, backend-form">
