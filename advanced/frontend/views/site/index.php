@@ -35,7 +35,7 @@ $this->title = 'C.D.R';
     <br><br>
 
     <div class="reservas row">
-        <?php $form = ActiveForm::begin(); ?>
+        <?php $form = ActiveForm::begin(['id' => 'reservasForm', 'options' => ['class' => 'reservasForm']]); ?>
 
         <div class="btn-reservar-datepicker col-spaced col-lg-4">
             <?= $form->field($model, 'data')->widget(DateTimePicker::className(),
@@ -64,7 +64,7 @@ $this->title = 'C.D.R';
         <?= $form->field($model, 'id_user')->hiddenInput(['value' => $model->id_user])->label(false) ?>
 
         <div class="col-spaced col-lg-4">
-            <?= Html::submitButton('Reservar', ['class' => 'btn-reservar']) ?>
+            <?= Html::submitButton('Reservar', ['class' => 'btn-reservar', 'name' => 'reservar']) ?>
         </div>
 
         <?php ActiveForm::end(); ?>

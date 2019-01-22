@@ -45,7 +45,7 @@ class Prato extends \yii\db\ActiveRecord
             [['preco'], 'number'],
             [['id_tipo_prato', 'id_dia_semana'], 'integer'],
             [['descricao'], 'string', 'max' => 100],
-            [['imagem'], 'file', 'extensions' => 'png, jpg, gif'],
+            [['imagem'], 'string', 'max' => 255],
             [['id_tipo_prato'], 'exist', 'skipOnError' => true, 'targetClass' => TipoPrato::className(), 'targetAttribute' => ['id_tipo_prato' => 'id']],
             [['id_dia_semana'], 'exist', 'skipOnError' => true, 'targetClass' => DiasSemana::className(), 'targetAttribute' => ['id_dia_semana' => 'id']],
         ];

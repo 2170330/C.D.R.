@@ -96,13 +96,13 @@ class MenuTest extends \Codeception\Test\Unit
         $menu->id_prato = '3';
         $menu->update();
 
-        $this->tester->seeRecord('backend\models\Menu', ['id_prato' => '1']);
+        $this->tester->seeRecord('backend\models\Menu', ['id_prato' => '3']);
     }
 
     function testDelete(){
 
-        Menu::deleteAll(['id_prato' => '1']);
-        $conta = Menu::find()->where(['id_prato' => '1'])->Count();
+        Menu::deleteAll(['id_prato' => '3']);
+        $conta = Menu::find()->where(['id_prato' => '3'])->Count();
         $this->assertEquals(0, $conta);
 
     }

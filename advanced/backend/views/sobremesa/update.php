@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model backend\models\Sobremesa */
 
-$this->title = 'Update Sobremesa: ' . $model->descricao;
+$this->title = 'Atualizar Sobremesa: ' . $model->descricao;
 
 ?>
 <?= $this->render('@backend/views/layouts/submenu.php'); ?>

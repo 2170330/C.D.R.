@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model backend\models\Mensagem */
 
-$this->title = 'Criar Contacto';
+$this->title = 'Criar Mensagem';
 ?>
 <?= $this->render('@backend/views/layouts/submenu.php'); ?>
 

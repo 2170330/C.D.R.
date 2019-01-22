@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model backend\models\Comentario */
 
-$this->title = 'Update Comentario: ' . $model->id;
+$this->title = 'Atualizar Comentario: ' . $model->id;
 ?>
 
 <?= $this->render('@backend/views/layouts/submenu.php'); ?>

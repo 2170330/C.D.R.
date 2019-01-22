@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model backend\models\Prato */
 
-$this->title = 'Update Prato: ' . $model->id;
+$this->title = 'Atualizar Prato: ' . $model->id;
 ?>
 
 <?= $this->render('@backend/views/layouts/submenu.php'); ?>

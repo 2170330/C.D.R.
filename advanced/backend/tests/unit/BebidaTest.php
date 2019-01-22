@@ -79,8 +79,8 @@ class BebidaTest extends \Codeception\Test\Unit
 
     public function testUpdate(){
         //$id = $this->tester->grabRecord('backend\models\Bebida', ['descricao' => 'cocacola']);
-        $bebida = Bebida::findOne(['descricao' => 'cocacola']);
-        $bebida->descricao = 'Sumol';
+        $bebida = Bebida::findOne(['descricao' => 'Ice-tea']);
+        $bebida->descricao = 'cocacola';
         $bebida->update();
 
         $this->tester->seeRecord('backend\models\Bebida', ['descricao' => 'cocacola']);
@@ -88,8 +88,8 @@ class BebidaTest extends \Codeception\Test\Unit
 
     function testDelete(){
         Menu::deleteAll();
-        Bebida::deleteAll(['descricao' => 'Sumol']);
-        $conta = Bebida::find()->where(['descricao' => 'Ice-tea'])->Count();
+        Bebida::deleteAll(['descricao' => 'cocacola']);
+        $conta = Bebida::find()->where(['descricao' => 'cocacola'])->Count();
         $this->assertEquals(0, $conta);
 
     }

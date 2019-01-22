@@ -16,13 +16,13 @@ use backend\models\Utilizador;
     <?php $form = ActiveForm::begin(); ?>
 
     <?= $form->field($model, 'nPessoas')->dropDownList(
-        array(['1' => '1 pessoa',
+        array('1' => '1 pessoa',
             '2' => '2 pessoas',
             '3' => '3 pessoas',
             '4' => '4 pessoas',
             '5' => '5 pessoas',
             '6' => '6 pessoas'
-        ]))
+        ))->label("Número de pessoas");
     ?>
 
     <?= $form->field($model, 'data')->widget(DateTimePicker::className(),

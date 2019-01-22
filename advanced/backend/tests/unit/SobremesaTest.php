@@ -72,7 +72,7 @@ class SobremesaTest extends \Codeception\Test\Unit
         $sobremesa->descricao = 'Pudim';
         $sobremesa->update();
 
-       $this->tester->seeRecord('backend\models\Sobremesa', ['descricao' => 'Cheesecake']);
+       $this->tester->seeRecord('backend\models\Sobremesa', ['descricao' => 'Pudim']);
 
     }
 

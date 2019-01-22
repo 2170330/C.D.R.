@@ -19,7 +19,7 @@ use yii\widgets\ActiveForm;
     <?= $form->field($model, 'email')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'status')->dropDownList(
-            array(['10' => 'Ativado', '0' => 'Desativado'])) ?>
+            array('10' => 'Ativado', '0' => 'Desativado')) ?>
 
     <?= $form->field($model, 'nome')->textInput(['maxlength' => true]) ?>
 

@@ -50,7 +50,7 @@ class ComentarioTest extends \Codeception\Test\Unit
        $comentario->avaliacao = 1;
        $this->assertTrue($comentario->validate(['avaliacao']));
 
-       $comentario ->mensagem = 'na gostei';
+       $comentario ->mensagem = 'nao gostei';
        $this->assertTrue($comentario->validate(['mensagem']));
 
        $comentario->id_user = 1;
@@ -59,10 +59,10 @@ class ComentarioTest extends \Codeception\Test\Unit
        $comentario->save();
 
        $this->assertEquals(1,$comentario->avaliacao);
-       $this->assertEquals('na gostei',$comentario->mensagem);
+       $this->assertEquals('nao gostei',$comentario->mensagem);
        $this->assertEquals(1,$comentario->id_user);
 
-       $this->tester->seeInDatabase('$comentario',['avaliacao' => '1' , 'mensagem' =>'na gostei', 'id_user' => '1']);
+       $this->tester->seeInDatabase('comentario',['avaliacao' => '1' , 'mensagem' =>'nao gostei', 'id_user' => '1']);
 
    }
 

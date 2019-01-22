@@ -48,8 +48,26 @@
     cursor: pointer;
  }
 
+.sidebar-menu-pratos{
+    display: block;
+    cursor: pointer;
+}
+
+.sidebar-menu-bebidas{
+    display: block;
+    cursor: pointer;
+}
+
 
 .sidebar-menu:hover{
+    background-color: #ce844b;
+}
+
+.sidebar-menuPratos:hover{
+    background-color: #ce844b;
+}
+
+.sidebar-menuBebidas:hover{
     background-color: #ce844b;
 }
 

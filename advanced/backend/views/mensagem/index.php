@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel backend\models\MensagemSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Contactos';
+$this->title = 'Mensagens';
 ?>
 <?= $this->render('@backend/views/layouts/submenu.php'); ?>
 

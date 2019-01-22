@@ -15,13 +15,13 @@ use backend\models\Utilizador;
     <?php $form = ActiveForm::begin(); ?>
 
     <?= $form->field($model, 'avaliacao')->dropDownList(
-        array(['1' => '1 estrela',
+        array('1' => '1 estrela',
             '2' => '2 estrelas',
             '3' => '3 estrelas',
             '4' => '4 estrelas',
             '5' => '5 estrelas',
             '6' => '6 estrelas'
-        ]))
+        ))
     ?>
 
     <?= $form->field($model, 'mensagem')->textInput(['maxlength' => true]) ?>
