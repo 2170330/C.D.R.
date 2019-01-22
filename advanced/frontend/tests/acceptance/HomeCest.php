@@ -54,7 +54,8 @@ class HomeCest
 
         // Página Home Logado
         $I->see('C.D.R.');
-        $I->submitForm('reservasForm', ['data' => '2019-01-25', 'nPessoas' => '2']);
+        $I::
+        $I->submitForm('reservasForm', ['data' => '2019-01-25 00:30', 'nPessoas' => '2', 'id_user' => ]);
        /* $I->selectOption('#reserva-npessoas', '2');
         $I->wait(2);
         $I->fillField('Reserva[data]', '2019-01-23 12:30');
