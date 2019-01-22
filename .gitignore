@@ -21,3 +21,4 @@ advanced/backend/tests/functional/ComentarioCest.php
 advanced/backend/tests/functional/SobremesaCest.php
 advanced/backend/tests/unit/PratoTest.php
 .idea/workspace.xml
+advanced/frontend/tests/acceptance/HomeCest.php

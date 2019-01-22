@@ -97,10 +97,10 @@ $this->title = 'C.D.R';
 
         <p class="paragrafo-2-1"> Vários tipos de concertos Jazz & Blues para animar a noite.</p>
 
-
+        <br><br><br><br><br>
     </div>
     <div class="inicio-2-2 col-lg-6">
-        <img class="inicio-2-2">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </div>
 </div>
 
