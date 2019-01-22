@@ -1,18 +1,18 @@
 <?php
 
-namespace frontend\controllers;
+namespace frontend\Controllers;
 
 use Yii;
-use frontend\models\MensagemForm;
-use frontend\models\MensagemFormSearch;
+use frontend\Models\Mensagem;
+use frontend\Models\MensagemSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * MensagemFormController implements the CRUD actions for MensagemForm model.
+ * MensagemController implements the CRUD actions for Mensagem model.
  */
-class MensagemFormController extends Controller
+class MensagemController extends Controller
 {
     /**
      * {@inheritdoc}
@@ -30,12 +30,12 @@ class MensagemFormController extends Controller
     }
 
     /**
-     * Lists all MensagemForm models.
+     * Lists all Mensagem models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new MensagemFormSearch();
+        $searchModel = new MensagemSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -45,7 +45,7 @@ class MensagemFormController extends Controller
     }
 
     /**
-     * Displays a single MensagemForm model.
+     * Displays a single Mensagem model.
      * @param integer $id
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
@@ -58,13 +58,13 @@ class MensagemFormController extends Controller
     }
 
     /**
-     * Creates a new MensagemForm model.
+     * Creates a new Mensagem model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new MensagemForm();
+        $model = new Mensagem();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
@@ -76,7 +76,7 @@ class MensagemFormController extends Controller
     }
 
     /**
-     * Updates an existing MensagemForm model.
+     * Updates an existing Mensagem model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -96,7 +96,7 @@ class MensagemFormController extends Controller
     }
 
     /**
-     * Deletes an existing MensagemForm model.
+     * Deletes an existing Mensagem model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -110,15 +110,15 @@ class MensagemFormController extends Controller
     }
 
     /**
-     * Finds the MensagemForm model based on its primary key value.
+     * Finds the Mensagem model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return MensagemForm the loaded model
+     * @return Mensagem the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = MensagemForm::findOne($id)) !== null) {
+        if (($model = Mensagem::findOne($id)) !== null) {
             return $model;
         }
 

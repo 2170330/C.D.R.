@@ -8,7 +8,6 @@ use yii\widgets\DetailView;
 
 $this->title = $model->id;
 ?>
-
 <?= $this->render('@backend/views/layouts/submenu.php'); ?>
 
 <div class="mensagem-view, backend-form">
@@ -33,16 +32,12 @@ $this->title = $model->id;
             'model' => $model,
             'attributes' => [
                 'id',
-                'avaliacao',
-                'mensagem',
+                'nome',
+                'email:email',
                 'assunto',
-                'created_at',
-                'updated_at',
-                [
-                    'label' => 'Utilizador',
-                    'attribute' => 'user.username',
-                ],
+                'mensagem',
             ],
         ]) ?>
     </div>
+
 </div>
