@@ -20,15 +20,6 @@ class SobremesaCest
 
         $I->fillField('Descricao', 'Gelado de morango');
         $I->fillField('Preco', 2.45);
-<<<<<<< HEAD
-<<<<<<< HEAD
-        //$I->attachFile('Imagem', 'gelado-de-morango.png'); FAZER IMAGEM
-=======
-        $I->attachFile('Imagem', 'gelado-de-morango.png'); //Imagem na "_data"
->>>>>>> master
-=======
-        $I->attachFile('Imagem', 'gelado-de-morango.png');
->>>>>>> Rafaela
         $I->click('Criar');
 
         $I->see('Gelado de morango', 'td');

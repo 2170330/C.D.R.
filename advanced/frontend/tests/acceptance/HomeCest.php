@@ -9,15 +9,16 @@ class HomeCest
     public function checkHome(AcceptanceTester $I)
     {
         $I->amOnPage(Url::toRoute('/site/index'));
-        $I->see('C.D.R.');
+        $I->see('C.D.R');
 
 
         $I->click('LOGIN');
-        $I->wait(2); // wait for page to be opened
+        $I->wait(2);
 
         $I->see('Iniciar sessão');
         $I->click('registe aqui');
         $I->wait(2);
+
         $I->fillField('Username', 'asd');
         $I->wait(2);
         $I->fillField('Password', 123456);
@@ -32,26 +33,22 @@ class HomeCest
         $I->wait(2);
         $I->click('Signup');
         $I->wait(2);
+
         $I->see('C.D.R.');
         $I->click('Logout');
         $I->wait(2);
         $I->click('LOGIN');
-        $I->wait(2); // wait for page to be opened
+        $I->wait(2);
+
         $I->see('Iniciar sessão');
-        $I->click('registe aqui');
         $I->wait(2);
         $I->fillField('Username', 'asd');
         $I->wait(2);
         $I->fillField('Password', 123456);
         $I->wait(2);
-        $I->fillField('Email', 'asd@asd.asd');
+        $I->click('Login');
         $I->wait(2);
-        $I->fillField('Nome', 'ASD');
-        $I->wait(2);
-        $I->fillField('Morada', 'Rua 123 nº3');
-        $I->wait(2);
-        $I->fillField('Nif', 123456789);
-        $I->wait(2);
-
+        $I->see('C.D.R.');
+        $I->see('Logout (asd)', 'form button[type=submit]');
     }
 }

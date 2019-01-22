@@ -148,12 +148,6 @@
 
 }
 
-.inicio-2-1{
-    background-color: #D69869;
-    text-align: center;
-    padding-bottom: 8.5%;
-}
-
 .titulo-2-1{
     color: white;
     font-size: 680%;
@@ -174,10 +168,17 @@
     font-size: 19px;
 }
 
+.inicio-2-1{
+    background-color: #D69869;
+    text-align: center;
+    padding-bottom: 1%;
+
+}
+
 .inicio-2-2{
     background-image: url("../img/jazz&blues.jpg");
     background-size: cover;
-    padding-bottom: 25.13%;
+
 }
 
 .map{

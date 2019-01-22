@@ -5,7 +5,7 @@ chorme:
 modules:
     enabled:
         - WebDriver:
-            url: http://localhost/CDR/C.D.R/advanced/frontend/web/
+            url: http://localhost/C.D.R/advanced/frontend/web/
             browser: chrome
         - Yii2:
             part: [orm, fixtures]
