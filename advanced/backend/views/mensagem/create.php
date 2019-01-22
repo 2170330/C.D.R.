@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model backend\models\Mensagem */
 
-$this->title = 'Criar Mensagem';
+$this->title = 'Criar Contacto';
 ?>
 <?= $this->render('@backend/views/layouts/submenu.php'); ?>
 
@@ -14,6 +14,7 @@ $this->title = 'Criar Mensagem';
     <h1 class="backend-titulo"><?= Html::encode($this->title) ?></h1>
 
     <i>  <?= Html::a('', ['/mensagem/index'], ['class'=>'fas fa-arrow-left  voltar-button']) ?> </i>
+
 
     <?= $this->render('_form', [
         'model' => $model,

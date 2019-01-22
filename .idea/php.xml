@@ -85,5 +85,4 @@
       <path value="$PROJECT_DIR$/advanced/vendor/yii2mod/yii2-cart" />
     </include_path>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="5.4.0" />
 </project>

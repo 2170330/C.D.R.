@@ -263,7 +263,7 @@ $sobremesas = Sobremesa::find()->all();
     </div>
 
     <div class="site-menu-2 clearfix col-lg-9">
-        <p id="sumos" class="titulo-menu"> Outras Bebidas </p>
+        <p id="outros" class="titulo-menu"> Outras Bebidas </p>
         <p class="line"> _____</p>
         <?php
         $count = 1;

@@ -45,7 +45,7 @@ $sobremesas = Sobremesa::find()->all();
     <?= $this->render('@frontend/views/layouts/submenu.php'); ?>
 
     <div class="site-menu-2 clearfix col-lg-9">
-        <p id="menuf" class="titulo-menu"> Sobremesas </p>
+        <p id="menu" class="titulo-menu"> Menus </p>
         <p class="line"> _____</p>
         <?php
         $count = 1;
@@ -203,7 +203,7 @@ $sobremesas = Sobremesa::find()->all();
     </div>
 
     <div class="site-menu-2 clearfix col-lg-9">
-        <p id="sumos" class="titulo-menu"> Outras Bebidas </p>
+        <p id="outros" class="titulo-menu"> Outras Bebidas </p>
         <p class="line"> _____</p>
         <?php
         $count = 1;
