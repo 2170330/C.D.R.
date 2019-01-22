@@ -22,6 +22,7 @@ class AppAsset extends AssetBundle
         'css/header.css',
         'css/palavrapasse-pedir.css',
         'css/navbar.css',
+        'css/mensagem.css',
     ];
     public $js = [
         //'js/site.js',
