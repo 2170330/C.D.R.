@@ -14,7 +14,7 @@ $pratos = Prato::find()->all();
     <h1 class="sidebar-titulo"> <?= Html::a(' C.D.R.', ['/site/index'], ['class'=>'']) ?></h1>
     <ul class="nav-fall">
         <li class="sidebar-menu"> <a href="#menu"><i class="far fa-calendar-minus"></i> Menu</a> </li>
-        <li class="sidebar-menu"><i class="fas fa-utensils"></i> Pratos
+        <li class="sidebar-menuPratos"><i class="fas fa-utensils"></i> Pratos
             <ul class="sidebar-submenu">
                 <li><i class="fas fa-drumstick-bite"><a href="#carne"></i> Carne</a></li>
                 <li><i class="fas fa-fish"><a href="#peixe"></i> Peixe</a></li>
@@ -22,7 +22,7 @@ $pratos = Prato::find()->all();
                 <li><i class="fas fa-apple-alt"><a href="#vegan"></i> Vegan</a></li>
             </ul>
         </li>
-        <li class="sidebar-menu"><i class="fas fa-wine-glass-alt"></i> Bebidas
+        <li class="sidebar-menuBebidas"><i class="fas fa-wine-glass-alt"></i> Bebidas
             <ul class="sidebar-submenu">
                 <li><i class="fas fa-glass-martini"><a href="#sumos"></i> Sumos</a></li>
                 <li><i class="fas fa-wine-bottle"><a href="#vinhos"></i> Vinhos</a></li>

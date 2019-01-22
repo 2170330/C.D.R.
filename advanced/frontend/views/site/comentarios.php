@@ -25,7 +25,7 @@ $this->title = 'Comentarios';
 
     <div class="comentario-center">
         <div class="star">
-            <i class="fa fa-star" value="5" onclick="rate(this)"></i>
+            <i class="fa fa-star" value="5" name="star5" onclick="rate(this)"></i>
             <i class="fa fa-star" value="4" onclick="rate(this)"></i>
             <i class="fa fa-star" value="3" onclick="rate(this)"></i>
             <i class="fa fa-star" value="2" onclick="rate(this)"></i>
