@@ -1,7 +1,7 @@
 suite_namespace: frontend\tests\acceptance
 actor: AcceptanceTester
 env:
-chorme:
+chrome:
 modules:
     enabled:
         - WebDriver:
@@ -15,5 +15,5 @@ extensions:
         enabled:
         - Codeception\Extension\RunProcess:
                 0: java -jar selenium-server-standalone-3.141.59.jar
-                1: chormedriver.exe
+                1: chromedriver.exe
                 sleep: 5

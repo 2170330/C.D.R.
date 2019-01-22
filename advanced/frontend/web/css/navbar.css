@@ -52,6 +52,24 @@
 .sidebar-menu:hover{
     background-color: #ce844b;
 }
+.sidebar-menuPratos{
+     display: block;
+     cursor: pointer;
+ }
+
+
+.sidebar-menuPratos:hover{
+    background-color: #ce844b;
+}
+.sidebar-menuBebidas{
+    display: block;
+    cursor: pointer;
+}
+
+
+.sidebar-menuBebidas:hover{
+    background-color: #ce844b;
+}
 
 a {
     color: inherit;
