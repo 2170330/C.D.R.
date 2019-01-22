@@ -11,7 +11,7 @@ class HomeCest
         $I->amOnPage(Url::toRoute('/site/index'));
         $I->see('C.D.R.');
 
-        /*// Página Login
+        // Página Login
         $I->click('LOGIN');
         //$I->wait(2); // wait for page to be opened
 
@@ -39,7 +39,7 @@ class HomeCest
         // Página Home
         $I->see('C.D.R.');
         $I->click('Logout');
-       */ //$I->wait(2);
+        //$I->wait(2);
         $I->click('LOGIN');
         //$I->wait(2);
 
@@ -145,7 +145,31 @@ class HomeCest
         $I->click('Sobremesas');
         $I->wait(2);
 
+        $I->see('COMENTARIOS');
+        $I->click('COMENTARIOS');
+        $I->wait(2);
 
+        $I->see('Comentários');
+        $I->click(['name'=>'star5']);
+        $I->wait(2);
 
+        $I->fillField('Comentario[mensagem]', 'Muito Bom Serviço');
+        $I->wait(2);
+        $I->click('Comentar');
+        $I->wait(2);
+        $I->click('Voltar');
+        $I->wait(2);
+
+        $I->click('CONTACTO');
+        $I->wait(2);
+
+        $I->fillField('Mensagem[nome]', 'ASD');
+        $I->fillField('Mensagem[email]', '111@111.com');
+        $I->fillField('Mensagem[assunto]', 'Encomenda');
+        $I->fillField('Mensagem[mensagem]', 'Teste');
+        $I->click('Save');
+        $I->wait(2);
+        $I->click('Voltar');
+        $I->wait(2);
     }
 }
