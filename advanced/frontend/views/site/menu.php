@@ -17,14 +17,6 @@ $this->title = 'Menu';
 }*/
 ?>
 
-
-<?php
-$menus =  Menu::find()->all();
-$pratos = Prato::find()->all();
-$bebidas = Bebida::find()->all();
-$sobremesas = Sobremesa::find()->all();
-?>
-
 <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
 <script>
     $(function() {

@@ -9,11 +9,6 @@ use yii\grid\GridView;
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Utilizadores';
-
-$utilizadores = Utilizador::find()->all();
-
-
-
 ?>
 
 <?= $this->render('@backend/views/layouts/submenu.php'); ?>

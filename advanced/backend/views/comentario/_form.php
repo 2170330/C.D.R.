@@ -8,6 +8,7 @@ use backend\models\Utilizador;
 /* @var $this yii\web\View */
 /* @var $model backend\models\Comentario */
 /* @var $form yii\widgets\ActiveForm */
+/* @var $id_user @backend/views/comentario/create */
 ?>
 
 <div class="comentario-form">
@@ -27,7 +28,7 @@ use backend\models\Utilizador;
     <?= $form->field($model, 'mensagem')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'id_user')->dropDownList(
-        ArrayHelper::map(Utilizador::find()->all(), 'id', 'username')
+        ArrayHelper::map($id_user, 'id', 'username')
     )->label('Utilizador') ?>
 
     <div class="form-group">

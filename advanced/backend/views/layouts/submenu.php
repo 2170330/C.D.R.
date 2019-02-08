@@ -1,9 +1,6 @@
 <?php
 
 use yii\helpers\Html;
-use backend\models\Prato;
-
-$pratos = Prato::find()->all();
 ?>
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">

@@ -9,6 +9,8 @@ use backend\models\Utilizador;
 /* @var $this yii\web\View */
 /* @var $model backend\models\Reserva */
 /* @var $form yii\widgets\ActiveForm */
+/* @var $utilizador @backend/views/reserva/create */
+
 ?>
 
 <div class="reserva-form">
@@ -40,7 +42,7 @@ use backend\models\Utilizador;
     ?>
 
     <?= $form->field($model, 'id_user')->dropDownList(
-        ArrayHelper::map(Utilizador::find()->all(), 'id', 'username')
+        ArrayHelper::map($utilizador, 'id', 'username')
     )->label('Utilizador') ?>
 
     <div class="form-group">

@@ -4,6 +4,9 @@ use yii\helpers\Html;
 
 /* @var $this yii\web\View */
 /* @var $model backend\models\Menu */
+/* @var $id_prato backend\models\Prato */
+/* @var $id_bebida backend\models\Bebida */
+/* @var $id_sobremesa backend\models\Sobremesa */
 
 $this->title = 'Criar Menu';
 
@@ -19,6 +22,9 @@ $this->title = 'Criar Menu';
 
     <?= $this->render('_form', [
         'model' => $model,
+        'prato' => $id_prato,
+        'bebida' => $id_bebida,
+        'sobremesa' => $id_sobremesa
     ]) ?>
 
 </div>

@@ -5,6 +5,8 @@ use yii\helpers\Html;
 
 /* @var $this yii\web\View */
 /* @var $model backend\models\Prato */
+/* @var $id_tipo_prato backend\models\TipoPrato */
+/* @var $id_dia_semana backend\models\DiasSemana */
 
 $this->title = 'Criar Prato';
 ?>
@@ -17,6 +19,8 @@ $this->title = 'Criar Prato';
     <i> <?= Html::a('', ['/prato/index', 'id' => 0], ['class'=>'fas fa-arrow-left  voltar-button']) ?> </i>
 
     <?= $this->render('_form', [
+        'id_tipo_prato' => $id_tipo_prato,
+        'id_dia_semana' => $id_dia_semana,
         'model' => $model,
     ]) ?>
 

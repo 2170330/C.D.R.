@@ -4,31 +4,10 @@
 /* @var $model backend\models\Encomenda */
 /* @var $form yii\widgets\ActiveForm */
 
-use yii\helpers\Html;
-use backend\models\Prato;
-use backend\models\Sobremesa;
-use backend\models\Bebida;
-use backend\models\Menu;
-use backend\models\Encomenda;
-use backend\controllers\PratoController;
 use yii\helpers\Url;
-use yii\widgets\ActiveForm;
 
 $this->title = 'Encomendas';
 
-/*public function __construct(){
-    parent::__construct();
-    $this->load->helper('url');
-}*/
-?>
-
-
-
-<?php
-$menus =  Menu::find()->all();
-$pratos = Prato::find()->all();
-$bebidas = Bebida::find()->all();
-$sobremesas = Sobremesa::find()->all();
 ?>
 
 <script src="http://code.jquery.com/jquery-1.10.2.js"></script>

@@ -9,6 +9,8 @@ use backend\models\TipoPrato;
 /* @var $this yii\web\View */
 /* @var $model backend\models\Prato */
 /* @var $form yii\widgets\ActiveForm */
+/* @var $id_tipo_prato @backend/views/prato/create */
+/* @var $id_dia_semana @backend/views/prato/create */
 ?>
 
 <div class="prato-form">
@@ -20,13 +22,13 @@ use backend\models\TipoPrato;
     <?= $form->field($model, 'preco')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'id_tipo_prato')->dropDownList(
-        ArrayHelper::map(TipoPrato::find()->all(), 'id', 'descricao')
+        ArrayHelper::map($id_tipo_prato, 'id', 'descricao')
     )->label('Tipo de Prato') ?>
 
     <?= $form->field($model, 'imagem')->fileInput() ?>
 
     <?= $form->field($model, 'id_dia_semana')->dropDownList(
-        ArrayHelper::map(DiasSemana::find()->all(), 'id', 'descricao'),
+        ArrayHelper::map($id_dia_semana, 'id', 'descricao'),
         ['prompt' => '']
     )->label('Dia de Semana')  ?>
 

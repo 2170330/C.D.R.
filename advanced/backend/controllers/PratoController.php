@@ -3,6 +3,9 @@
 namespace backend\controllers;
 
 
+use backend\models\DiasSemana;
+use backend\models\TipoPrato;
+use Codeception\Lib\Di;
 use Yii;
 use backend\models\Prato;
 use app\models\PratoSearch;
@@ -50,12 +53,15 @@ class PratoController extends Controller
      */
     public function actionIndex()
     {
+        $model = Prato::find();
+
         $searchModel = new PratoSearch();
         $dataProvider = new ActiveDataProvider([
             'query' => Prato::find(),
         ]);
 
         return $this->render('index', [
+            'model' => $model,
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         ]);
@@ -82,7 +88,8 @@ class PratoController extends Controller
     public function actionCreate()
     {
         $model = new Prato();
-
+        $tipo_prato = TipoPrato::find()->all();
+        $dia_semana = DiasSemana::find()->all();
 
         if ($model->load(Yii::$app->request->post())) {
             //recebe a instância da imagem
@@ -109,6 +116,8 @@ class PratoController extends Controller
         }
 
         return $this->render('create', [
+            'id_tipo_prato' => $tipo_prato,
+            'id_dia_semana' => $dia_semana,
             'model' => $model,
         ]);
     }

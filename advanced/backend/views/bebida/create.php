@@ -4,6 +4,7 @@ use yii\helpers\Html;
 
 /* @var $this yii\web\View */
 /* @var $model backend\models\Bebida */
+/* @var $id_tipo_bebida backend\models\TipoBebida */
 
 $this->title = 'Criar Bebida';
 ?>
@@ -17,6 +18,7 @@ $this->title = 'Criar Bebida';
     <i> <?= Html::a('', ['/bebida/index', 'id' => 0], ['class'=>'fas fa-arrow-left  voltar-button']) ?> </i>
 
     <?= $this->render('_form', [
+        'id_tipo_bebida' => $id_tipo_bebida,
         'model' => $model,
     ]) ?>
 

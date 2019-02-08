@@ -2,6 +2,7 @@
 
 namespace backend\controllers;
 
+use backend\models\TipoBebida;
 use Yii;
 use backend\models\Bebida;
 use backend\models\BebidaSearch;
@@ -48,10 +49,12 @@ class BebidaController extends Controller
      */
     public function actionIndex()
     {
+        $model = Bebida::find();
         $searchModel = new BebidaSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
+            'model' => $model,
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         ]);
@@ -78,6 +81,7 @@ class BebidaController extends Controller
     public function actionCreate()
     {
         $model = new Bebida();
+        $tipobebida = TipoBebida::find()->all();
 
         if ($model->load(Yii::$app->request->post())) {
             //recebe a instância da imagem
@@ -101,6 +105,7 @@ class BebidaController extends Controller
         }
         return $this->render('create', [
             'model' => $model,
+            'id_tipo_bebida' => $tipobebida,
         ]);
     }
 

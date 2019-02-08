@@ -1,6 +1,10 @@
 <?php
 namespace frontend\controllers;
 
+use backend\models\Bebida;
+use backend\models\Menu;
+use backend\models\Prato;
+use backend\models\Sobremesa;
 use common\models\User;
 use frontend\models\Comentario;
 use frontend\models\ComentarioForm;
@@ -201,7 +205,16 @@ class SiteController extends Controller
 
     public function actionMenu()
     {
-        return $this->render('menu');
+        $menus = Menu::find()->all();
+        $pratos = Prato::find()->all();
+        $bebidas = Bebida::find()->all();
+        $sobremesas = Sobremesa::find()->all();
+        return $this->render('menu', [
+            'menus' => $menus,
+            'pratos' => $pratos,
+            'bebidas' => $bebidas,
+            'sobremesas' => $sobremesas
+        ]);
     }
 
 
@@ -209,7 +222,16 @@ class SiteController extends Controller
     public function actionEncomendas()
     {
 
-        return $this->render('encomendas');
+        $menus = Menu::find()->all();
+        $pratos = Prato::find()->all();
+        $bebidas = Bebida::find()->all();
+        $sobremesas = Sobremesa::find()->all();
+        return $this->render('encomendas', [
+            'menus' => $menus,
+            'pratos' => $pratos,
+            'bebidas' => $bebidas,
+            'sobremesas' => $sobremesas
+        ]);
     }
 
 

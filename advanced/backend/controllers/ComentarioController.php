@@ -2,6 +2,7 @@
 
 namespace backend\controllers;
 
+use backend\models\Utilizador;
 use Yii;
 use backend\models\Comentario;
 use backend\models\ComentarioSearch;
@@ -77,12 +78,14 @@ class ComentarioController extends Controller
     public function actionCreate()
     {
         $model = new Comentario();
+        $utilizador = Utilizador::find()->all();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
         }
 
         return $this->render('create', [
+            'utilizador' => $utilizador,
             'model' => $model,
         ]);
     }

@@ -2,19 +2,17 @@
 
 namespace backend\controllers;
 
-use backend\models\Utilizador;
 use Yii;
-use backend\models\Reserva;
-use backend\models\ReservaSearch;
-use yii\filters\AccessControl;
+use backend\models\TipoBebida;
+use backend\models\TipoBebidaSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * ReservaController implements the CRUD actions for Reserva model.
+ * TipoBebidaController implements the CRUD actions for TipoBebida model.
  */
-class ReservaController extends Controller
+class TipoBebidaController extends Controller
 {
     /**
      * {@inheritdoc}
@@ -22,17 +20,6 @@ class ReservaController extends Controller
     public function behaviors()
     {
         return [
-            'access' => [
-                'class' => AccessControl::className(),
-                'rules' => [
-                    [
-                        'actions' => ['index', 'create', 'update', 'view', 'delete'],
-                        'allow' => true,
-                        'roles' => ['admin'],
-                    ],
-
-                ],
-            ],
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [
@@ -43,12 +30,12 @@ class ReservaController extends Controller
     }
 
     /**
-     * Lists all Reserva models.
+     * Lists all TipoBebida models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new ReservaSearch();
+        $searchModel = new TipoBebidaSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -58,7 +45,7 @@ class ReservaController extends Controller
     }
 
     /**
-     * Displays a single Reserva model.
+     * Displays a single TipoBebida model.
      * @param integer $id
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
@@ -71,27 +58,25 @@ class ReservaController extends Controller
     }
 
     /**
-     * Creates a new Reserva model.
+     * Creates a new TipoBebida model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new Reserva();
-        $utilizador = Utilizador::find()->all();
+        $model = new TipoBebida();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
         }
 
         return $this->render('create', [
-            'utilizador' => $utilizador,
             'model' => $model,
         ]);
     }
 
     /**
-     * Updates an existing Reserva model.
+     * Updates an existing TipoBebida model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -111,7 +96,7 @@ class ReservaController extends Controller
     }
 
     /**
-     * Deletes an existing Reserva model.
+     * Deletes an existing TipoBebida model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -125,15 +110,15 @@ class ReservaController extends Controller
     }
 
     /**
-     * Finds the Reserva model based on its primary key value.
+     * Finds the TipoBebida model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return Reserva the loaded model
+     * @return TipoBebida the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = Reserva::findOne($id)) !== null) {
+        if (($model = TipoBebida::findOne($id)) !== null) {
             return $model;
         }
 

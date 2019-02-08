@@ -9,6 +9,7 @@ use yii\log;
 /* @var $this yii\web\View */
 /* @var $searchModel app\models\PratoSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
+/* @var $model backend\models\Prato */
 
 $this->title = 'Pratos';
 
@@ -16,7 +17,7 @@ if (isset($_GET['id'])) {
     $tipo_id = $_GET['id'];
 
     if ($tipo_id != 0) {
-        $query = Prato::find()->where(['id_tipo_prato' => $tipo_id]);
+        $query = $model->where(['id_tipo_prato' => $tipo_id]);
         $dataProvider = new ActiveDataProvider([
             'query' => $query]);
     }

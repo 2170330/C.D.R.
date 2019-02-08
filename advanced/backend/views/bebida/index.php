@@ -8,6 +8,8 @@ use backend\models\Bebida;
 /* @var $this yii\web\View */
 /* @var $searchModel backend\models\BebidaSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
+/* @var $model backend\models\Bebida */
+
 
 $this->title = 'Bebidas';
 
@@ -15,7 +17,7 @@ if(isset($_GET['id'])) {
     $tipo_id = $_GET['id'];
 
     if ($tipo_id != 0) {
-        $query = Bebida::find()->where(['id_tipo_bebida' => $tipo_id]);
+        $query = $model->where(['id_tipo_bebida' => $tipo_id]);
         $dataProvider = new ActiveDataProvider([
             'query' => $query]);
     }

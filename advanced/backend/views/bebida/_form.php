@@ -8,6 +8,7 @@ use yii\helpers\ArrayHelper;
 /* @var $this yii\web\View */
 /* @var $model backend\models\Bebida */
 /* @var $form yii\widgets\ActiveForm */
+/* @var $id_tipo_bebida @backend/views/bebida/create */
 ?>
 
 <div class="bebida-form">
@@ -21,7 +22,7 @@ use yii\helpers\ArrayHelper;
     <?= $form->field($model, 'imagem')->fileInput() ?>
 
     <?= $form->field($model, 'id_tipo_bebida')->dropDownList(
-        ArrayHelper::map(TipoBebida::find()->all(), 'id', 'descricao')
+        ArrayHelper::map($id_tipo_bebida, 'id', 'descricao')
     )->label('Tipo de Bebida') ?>
 
     <div class="form-group">

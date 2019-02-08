@@ -51,7 +51,7 @@ return [
             'enablePrettyUrl' => true,
             //'showScriptName' => false,
             'rules' => [
-                [
+                /*[
                     'class' => 'yii\rest\UrlRule',
                     'controller' => 'api/utilizador',
                     'pluralize' => false,
@@ -63,7 +63,7 @@ return [
                         //'PUT atualizar/{id}' => 'atualizar', // 'atualizar' é 'actionAtualizar'
                         //'DELETE apagar/{id}' => 'apagar', // 'apagar' é 'actionApagar'
                     ],
-                ],
+                ],*/
                 [
                     'class' => 'yii\rest\UrlRule',
                     'controller' => 'api/prato',
@@ -114,6 +114,14 @@ return [
                         //'POST criar' => 'criar', // 'criar' é 'actionCriar'
                         //'PUT atualizar/{id}' => 'atualizar', // 'atualizar' é 'actionAtualizar'
                         //'DELETE apagar/{id}' => 'apagar', // 'apagar' é 'actionApagar'
+                    ],
+                ],
+                [
+                    'class' => 'yii\rest\UrlRule',
+                    'controller' => 'api/pedido',
+                    'pluralize' => false,
+                    'extraPatterns' => [
+                        'GET total' => 'total', // 'total' é 'actionTotal
                     ],
                 ],
             ],

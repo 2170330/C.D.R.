@@ -2,6 +2,9 @@
 
 namespace backend\controllers;
 
+use backend\models\Bebida;
+use backend\models\Prato;
+use backend\models\Sobremesa;
 use Yii;
 use backend\models\Menu;
 use backend\models\MenuSearch;
@@ -79,6 +82,10 @@ class MenuController extends Controller
     {
         $model = new Menu();
 
+        $tipoPrato = Prato::find()->all();
+        $tipoBebida = Bebida::find()->all();
+        $tipoSobremesa = Sobremesa::find()->all();
+
         if ($model->load(Yii::$app->request->post())) {
             //recebe a instância da imagem
             $img = UploadedFile::getInstance($model, 'imagem');
@@ -94,6 +101,9 @@ class MenuController extends Controller
         }
 
         return $this->render('create', [
+            'id_prato' => $tipoPrato,
+            'id_bebida' => $tipoBebida,
+            'id_sobremesa' => $tipoSobremesa,
             'model' => $model,
         ]);
     }
